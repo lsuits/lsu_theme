@@ -1,0 +1,73 @@
+a {
+	color:[[setting:linkcolor]];
+}
+
+a:hover {
+	color:[[setting:hovercolor]];
+}
+
+#page-content #region-main-box {
+        left:[[setting:regionwidth]];
+}
+
+#page-content #region-post-box {
+        margin-left:-[[setting:regionwidthdouble]];
+}
+
+#page-content #region-main {
+        margin-left:[[setting:regionwidthdouble]];
+}
+
+#page-content #region-pre {
+        left:[[setting:regionwidth]];
+        width:[[setting:regionwidth]];
+}
+
+#page-content #region-post {
+        width:[[setting:regionwidth]];
+}
+
+/** Only side pre **/
+.side-pre-only #page-content #region-post-box {
+        margin-left:-[[setting:regionwidth]];
+}
+
+.side-pre-only #page-content #region-main {
+        margin-left:[[setting:regionwidth]];
+}
+
+/** Only side post **/
+.side-post-only #page-content #region-post-box {
+        margin-left:-[[setting:regionwidth]];
+}
+
+.side-post-only #page-content #region-main {
+        margin-left:[[setting:regionwidth]];
+}
+
+.has_dock.side-post-only .page-middle #region-main {
+        margin-left:[[setting:regionwidth]];
+}
+
+/** Report layout **/
+.pagelayout-report #report-main-content .region-content {
+        margin-left:[[setting:regionwidth]];
+}
+
+.pagelayout-report #report-region-pre {
+        width:[[setting:regionwidth]];
+}
+
+/** Correct for right to left languages **/
+.dir-rtl.pagelayout-report #report-main-content .region-content {
+        margin-right:[[setting:regionwidth]];
+}
+
+/** Stabalise IE6 behaviour on the report layout **/
+.ie6.pagelayout-report #report-region-wrap {
+        width:[[setting:regionwidth]];
+}
+
+
+/** Custom CSS **/
+[[setting:customcss]]
