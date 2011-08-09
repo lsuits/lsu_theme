@@ -6,6 +6,10 @@ a:hover {
 	color:[[setting:hovercolor]];
 }
 
+#page-header{
+        background:url([[setting:header_background_image]]) [[setting:header_bgcolor]] 0 0 no-repeat;
+}
+
 #page-content #region-main-box {
         left:[[setting:regionwidth]];
 }

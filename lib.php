@@ -25,6 +25,22 @@ function lsu_process_css($css, $theme) {
     }
     $css = lsu_set_hovercolor($css, $hovercolor);
 
+    // Set the header background color
+    if (!empty($theme->settings->header_bgcolor)) {
+        $header_bgcolor = $theme->settings->header_bgcolor;
+    } else {
+        $header_bgcolor = null;
+    }
+    $css = lsu_set_header_bgcolor($css, $header_bgcolor);
+
+    // Set the header background image
+    if (!empty($theme->settings->header_background_image)) {
+        $header_background_image = $theme->settings->header_background_image;
+    } else {
+        $header_background_image = null;
+    }
+    $css = lsu_set_header_background_image($css, $header_background_image);
+
     // Set the region width
     if (!empty($theme->settings->regionwidth)) {
         $regionwidth = $theme->settings->regionwidth;
@@ -74,6 +90,40 @@ function lsu_set_hovercolor($css, $hovercolor) {
     $replacement = $hovercolor;
     if (is_null($replacement)) {
         $replacement = '#fdd023';
+    }
+    $css = str_replace($tag, $replacement, $css);
+    return $css;
+}
+
+/**
+ * Sets the header background color variable in CSS
+ *
+ * @param string $css
+ * @param mixed $header_bgcolor
+ * @return string
+ */
+function lsu_set_header_bgcolor($css, $header_bgcolor) {
+    $tag = '[[setting:header_bgcolor]]';
+    $replacement = $header_bgcolor;
+    if (is_null($replacement)) {
+        $replacement = '#461d7c';
+    }
+    $css = str_replace($tag, $replacement, $css);
+    return $css;
+}
+
+/**
+ * Sets the header background image variable in CSS
+ *
+ * @param string $css
+ * @param mixed $header_background_image
+ * @return string
+ */
+function lsu_set_header_background_image($css, $header_background_image) {
+    $tag = '[[setting:header_background_image]]';
+    $replacement = $header_background_image;
+    if (is_null($replacement)) {
+        $replacement = 'pix/lsu_logo.png';
     }
     $css = str_replace($tag, $replacement, $css);
     return $css;

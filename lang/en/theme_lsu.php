@@ -66,3 +66,7 @@ $string['logo'] = 'Logo';
 $string['logodesc'] = 'Enter the URL to an image to use as the logo for this site. Should be http://www.yoursite.com/path/to/logo.png';
 $string['regionwidth'] = 'Column width';
 $string['regionwidthdesc'] = 'This sets the width of the two block regions that form the left and right columns.';
+$string['background_image'] = 'Background Image';
+$string['background_image_desc'] = 'Enter the URL to a tileable image in place of a site logo.';
+$string['header_bgcolor'] = 'Header Background Color';
+$string['header_bgcolor_desc'] = 'This sets the Background Color for the header area beneath the logo.';

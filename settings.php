@@ -11,7 +11,25 @@ if ($ADMIN->fulltree) {
     $name = 'theme_lsu/logo';
     $title = get_string('logo','theme_lsu');
     $description = get_string('logodesc', 'theme_lsu');
+    $default = 'pix/lsu_logo.png';
     $setting = new admin_setting_configtext($name, $title, $description, '', PARAM_URL);
+    $settings->add($setting);
+
+    // Header background image file setting
+    $name = 'theme_lsu/header_background_image';
+    $title = get_string('background_image','theme_lsu');
+    $description = get_string('background_image_desc', 'theme_lsu');
+    $default = 'pix/lsu_bg_logo.png';
+    $setting = new admin_setting_configtext($name, $title, $description, '', PARAM_URL);
+    $settings->add($setting);
+
+    // Header background color setting
+    $name = 'theme_lsu/header_bgcolor';
+    $title = get_string('header_bgcolor','theme_lsu');
+    $description = get_string('header_bgcolor_desc', 'theme_lsu');
+    $default = '#461d7c';
+    //$previewconfig = array('selector'=>'.block .content', 'style'=>'header_bgcolor');
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
     $settings->add($setting);
 
     // Tagline setting
@@ -25,7 +43,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_lsu/linkcolor';
     $title = get_string('linkcolor','theme_lsu');
     $description = get_string('linkcolordesc', 'theme_lsu');
-    $default = '#f25f0f';
+    $default = '#80729d';
     $previewconfig = array('selector'=>'.block .content', 'style'=>'linkcolor');
     $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
     $settings->add($setting);
