@@ -38,6 +38,8 @@ echo $OUTPUT->doctype() ?>
 <?php if ($hasheading || $hasnavbar) { ?>
     <div id="page-header">
         <?php if ($hasheading) { ?>
+         <div id="logo">
+         </div>
             <?php if ($hascustommenu) { ?>
             <div id="custommenu"><?php echo $OUTPUT->login_info(); echo $custommenu; ?></div>
             <?php } ?>

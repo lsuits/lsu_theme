@@ -11,7 +11,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_lsu/logo';
     $title = get_string('logo','theme_lsu');
     $description = get_string('logodesc', 'theme_lsu');
-    $default = 'pix/lsu_logo.png';
+    $default = 'theme/lsu/pix/lsu_logo.png';
     $setting = new admin_setting_configtext($name, $title, $description, '', PARAM_URL);
     $settings->add($setting);
 
@@ -19,7 +19,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_lsu/header_background_image';
     $title = get_string('background_image','theme_lsu');
     $description = get_string('background_image_desc', 'theme_lsu');
-    $default = 'pix/lsu_bg_logo.png';
+    $default = 'theme/lsu/pix/lsu_logo.png';
     $setting = new admin_setting_configtext($name, $title, $description, '', PARAM_URL);
     $settings->add($setting);
 

@@ -123,7 +123,7 @@ function lsu_set_header_background_image($css, $header_background_image) {
     $tag = '[[setting:header_background_image]]';
     $replacement = $header_background_image;
     if (is_null($replacement)) {
-        $replacement = 'pix/lsu_logo.png';
+        $replacement = 'lsu/pix/lsu_logo.png';
     }
     $css = str_replace($tag, $replacement, $css);
     return $css;
