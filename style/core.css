@@ -1,10 +1,10 @@
 html, body#tinymce {
-   background-color: #FAFAFA;
+   background-color: #F4F4F4;
 }
 
 body {
    font-family: Arial, Verdana, Helvetica, sans-serif;
-   padding: 4px;
+   padding: 0;
 }
 
 body.lang-vi {
@@ -25,16 +25,16 @@ a.autolink {
    background: #DDDDDD;
 }
 
-a: hover {
+a:hover {
    text-decoration: underline;
    color: #FF0000;
 }
 
-.img-text a: hover {
+.img-text a:hover {
    text-decoration: none;
 }
 
-.img-text a: hover span {
+.img-text a:hover span {
    text-decoration: underline;
 }
 
@@ -47,7 +47,7 @@ a: hover {
    border-right: 2px solid #4a4a4a;
 }
 
-.homelink a: hover {
+.homelink a:hover {
    text-decoration: none;
    border-bottom: 1px solid #cecece;
    border-top: 2px solid #4a4a4a;
@@ -193,7 +193,7 @@ h2.headingblock {
 }
 
 a.useredit,
-a: hover.useredit,
+a:hover.useredit,
 .blink {
    color: black;
    cursor: help;
@@ -345,6 +345,9 @@ table.formtable tbody th {
 /**
  * General
  */
+
+.region-content {
+}
 
 #layout-table {
    margin-top: 8px;
@@ -843,15 +846,21 @@ table#tag-management-list {
 
 #page-header .headermain {
    font-size: 1em;
-   margin-left: 220px;
-   margin-top: 30px;
+   float: none;
+   margin: 28px 0 0 235px;
    color: #fdd023;
 }
 
-.pagelayout-frontpage #page-header {
-   border-bottom: 2px groove #999;
-   margin: 0 0.5%;
-   width: 99%;
+#page-header .headermain h1 {
+   margin: 0;
+   padding: 0;
+}
+
+.pagelayout-frontpage #page-header, #page-header {
+   border: none;
+   height: 50px;
+   margin: 0;
+   width: 100%;
 }
 
 .has_custom_menu.pagelayout-frontpage #page-header {
@@ -860,8 +869,8 @@ table#tag-management-list {
 
 
 .navbar {
-   margin: 5px 10px;
-   border: 1px solid #DDD;
+   margin: 0x;
+   border-bottom: 2px groove #f4f4f4;
 }
 
 .navbar .breadcrumb {
@@ -911,7 +920,7 @@ table#tag-management-list {
    margin-bottom: -1px;
 }
 
-.tabtree .tabrow0 li a: hover {
+.tabtree .tabrow0 li a:hover {
    background-image: url([[pix: theme|tab/left_hover]]);
 }
 
@@ -924,7 +933,7 @@ table#tag-management-list {
    padding-bottom: 3px;
 }
 
-.tabtree .tabrow0 li a: hover span {
+.tabtree .tabrow0 li a:hover span {
    background-image: url([[pix: theme|tab/right_hover]]);
 }
 
@@ -949,25 +958,25 @@ table#tag-management-list {
 }
 
 .tabtree .tabrow1 li a,
-.tabtree .tabrow1 li a: hover,
+.tabtree .tabrow1 li a:hover,
 .tabtree .tabrow1 li a span,
-.tabtree .tabrow1 li a: hover span {
+.tabtree .tabrow1 li a:hover span {
    background-image: none !important;
 }
 
 
 .tabtree a.nolink,
 .tabtree .here ul a.nolink,
-.tabtree a.nolink: hover,
-.tabtree .here ul a.nolink: hover {
+.tabtree a.nolink:hover,
+.tabtree .here ul a.nolink:hover {
    color: #888;
    text-decoration: none;
 }
 
 .tabtree .here a.nolink,
 .tabtree .here ul .here a.nolink,
-.tabtree .here a.nolink: hover,
-.tabtree .here ul .here a.nolink: hover {
+.tabtree .here a.nolink:hover,
+.tabtree .here ul .here a.nolink:hover {
    color: black;
    text-decoration: none;
 }
@@ -1165,7 +1174,8 @@ table#tag-management-list {
 
 #custommenu {
    float: right;
-   width: 50%;
+   width: 790px;
+   clear: none;
    padding: 0;
    color: #fff;
    background-color: #000;
@@ -1217,14 +1227,14 @@ table#tag-management-list {
    background-image: none;
 }
 
-#custommenu .yui3-menu-horizontal.javascript-disabled a: hover {
+#custommenu .yui3-menu-horizontal.javascript-disabled a:hover {
    color: #ccc;
    text-decoration: none;
    background-image: none;
 }
 
 #custommenu .logininfo {
-   padding: 5px;
+   padding: 3px;
    margin: 0 10px;
    text-align: left;
    float: left;
@@ -1256,8 +1266,8 @@ table#tag-management-list {
 }
 
 
-.smartselect .smartselect_menuitem: hover,
-.smartselect .smartselect_submenuitem: hover {
+.smartselect .smartselect_menuitem:hover,
+.smartselect .smartselect_submenuitem:hover {
    background-color: #ccc;
    color: #fff;
 }
