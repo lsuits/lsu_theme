@@ -244,3 +244,12 @@ table.minicalendar {
         -moz-border-radius-bottomleft:10px;
         border-bottom-left-radius:10px;
 }
+
+.block {
+   border-width: 10px;
+   margin: 0;
+   -moz-border-image: url([[pix:theme|borders]]) 10 10 stretch;
+   -webkit-border-image: url([[pix:theme|borders]]) 10 10 stretch;
+   -o-border-image: url([[pix:theme|borders]]) 10 10 stretch;
+   border-image: url([[pix:theme|borders]]) 10 10 stretch;
+}
