@@ -955,6 +955,22 @@ table#tag-management-list {
    margin: 4px 10px 0 0;
 }
 
+.navbar, .navbar a, .navbar a:link, navbar a:visited {
+   color: #000;
+   text-decoration: none;
+   font-weight: normal; 
+}
+
+.navbar a, .navbar a:link, navbar a:visited {
+   color: #2e1352;
+   font-weight: bold;
+}
+
+.navbar a:hover {
+   color: #80729d;
+   text-decoration: underline;
+}
+
 .mform fieldset {
    border-color: #DDD;
 }

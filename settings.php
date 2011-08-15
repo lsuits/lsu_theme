@@ -27,7 +27,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_lsu/header_bgcolor';
     $title = get_string('header_bgcolor','theme_lsu');
     $description = get_string('header_bgcolor_desc', 'theme_lsu');
-    $default = '#461d7c';
+    $default = '#2e1352';
     //$previewconfig = array('selector'=>'.block .content', 'style'=>'header_bgcolor');
     $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
     $settings->add($setting);

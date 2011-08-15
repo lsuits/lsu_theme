@@ -106,7 +106,7 @@ function lsu_set_header_bgcolor($css, $header_bgcolor) {
     $tag = '[[setting:header_bgcolor]]';
     $replacement = $header_bgcolor;
     if (is_null($replacement)) {
-        $replacement = '#461d7c';
+        $replacement = '#2e1352';
     }
     $css = str_replace($tag, $replacement, $css);
     return $css;

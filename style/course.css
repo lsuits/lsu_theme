@@ -1,12 +1,15 @@
 /** Course formats **/
 .course-content ul.weeks li.section {border: 1px solid #f4f4f4; background-color: transparent;}
 .course-content ul.weeks li.section .content {background-color: #FFF; padding: 0; margin: 0;}
+.course-content ul.weeks li.section .content .summary {padding: 10px 0 0 0;}
 .course-content ul.weeks li.section .content h3 {margin: 0; color: #777; font-weight: normal;}
 .course-content ul.weeks li.section .left {padding:5px;}
 .course-content ul.weeks li.section .right {padding:5px;}
 .course-content ul.weeks li.section .sectionname {float: left;}
+.course-content ul.weeks li.section .content h3.weekdates {margin: 0; padding: 4px 0 0 2em; height: 24px; background: transparent url([[pix:theme|navbar]]) 0 -60px repeat-x;}
 .course-content ul.topics li.section {border: 1px solid #f4f4f4; background-color: transparent;}
 .course-content ul.topics li.section .content {background-color: #FFF; padding: 0; margin: 0;}
+.course-content ul.topics li.section .content .summary {padding: 10px 0 0 0;}
 .course-content ul.topics li.section .content h3.sectionname {margin: 0; padding: 4px 0 0 2em; height: 24px; background: transparent url([[pix:theme|navbar]]) 0 -60px repeat-x;}
 .course-content ul.topics li.section .left {padding:5px;}
 .course-content ul.topics li.section .right {padding:5px;}
