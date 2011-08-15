@@ -5,6 +5,7 @@ html, body#tinymce {
 body {
    font-family: Arial, Verdana, Helvetica, sans-serif;
    padding: 0;
+   background-color: #F4F4F4;
 }
 
 body.lang-vi {
@@ -104,6 +105,11 @@ h2.headingblock {
    background: transparent url([[pix:theme|navbar]]) 0 -60px repeat-x;
    padding: 0;
    margin; 0;
+}
+
+h2.header.outline {
+   margin-top: 10px;
+   height: 24px;
 }
 
 .sitetopic {

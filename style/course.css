@@ -1,9 +1,13 @@
 /** Course formats **/
-.course-content ul.weeks li.section {border:1px solid #DDD;}
-.course-content ul.weeks li.section .content {background-color:#FAFAFA;padding:5px 10px;}
-.course-content ul.weeks li.section .content h3 {margin:0;color:#777;font-weight: normal;}
+.course-content ul.weeks li.section {border: 1px solid #f4f4f4; background-color: transparent;}
+.course-content ul.weeks li.section .content {background-color: #FFF; padding: 0; margin: 0;}
+.course-content ul.weeks li.section .content h3 {margin: 0; color: #777; font-weight: normal;}
 .course-content ul.weeks li.section .left {padding:5px 0;}
 .course-content ul.weeks li.section .right {padding:5px 0;}
+.course-content ul.weeks li.section .sectionname {float: left;}
+.course-content ul.topics li.section {border: 1px solid #f4f4f4; background-color: transparent;}
+.course-content ul.topics li.section .content {background-color: #FFF; padding: 0; margin: 0;}
+.course-content ul.topics li.section .content h3.sectionname {margin: 0; padding-left: 2em; margin-right: -40px;height: 24px; background: transparent url([[pix:theme|navbar]]) 0 -60px repeat-x;}
 
 /** Course **/
 .coursebox {border:1px solid #DDD;border-color:#DDDDDD;}
@@ -35,7 +39,8 @@
 .path-course-view .weeks .content ,
 .path-course-view .topics .content,
 .path-course-view .weeks .section,
-.path-course-view .topics .section {background: #FAFAFA;}
+.path-course-view .topics .section {background-color: transparent;}
+.path-course-view .topics .section .content {background-color: #fff;}
 .path-course-view .section td.side {background: #FFFFFF;}
 .path-course-view .weeks .current,
 .path-course-view .topics .current,
@@ -51,7 +56,7 @@
 .topics li.section {border-style:solid;border-width:1px;}
 
 .weeks .content,
-.topics .content {padding: 5px;}
+.topics .content {padding: 0;}
 
 .categoryboxcontent {border-color:#DDDDDD;}
 
