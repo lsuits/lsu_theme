@@ -101,7 +101,7 @@ h2.headingblock {
    border-color: #DDDDDD;
 }
 
-.header {
+div.header {
    background: transparent url([[pix:theme|navbar]]) 0 -60px repeat-x;
    padding: 0;
    margin; 0;
@@ -203,6 +203,14 @@ a:hover.useredit,
    cursor: help;
 }
 
+tr.r0 td.cell {
+   background-color: #eee;
+}
+
+tr.r1 td.cell {
+   background-color: #fff;
+}
+
 .navigation button {
    font-size: 80%;
 }
@@ -248,7 +256,18 @@ table.formtable tbody th {
 }
 
 .mod_introbox {
-   border-color: #DDDDDD;
+   background-color: transparent;
+   padding: 0;
+}
+
+.mod_introbox div.no-overflow {
+   background-color: #fff;
+   padding: 10px;
+}
+
+div.resourceworkaround {
+   padding: 10px;
+   text-align: center;
 }
 
 /**
@@ -654,10 +673,14 @@ form.popupform label {
 
 .mform fieldset {
    border: 1px solid #DDDDDD;
-   padding: 10px 0;
+   padding: 0;
    margin: 0.7em 0;
    width: 100%;
 }
+
+.mform fieldset legend {
+   top: 1em;
+} 
 
 .mform .fitem fieldset.felement {
    margin-top: 0;
@@ -674,6 +697,20 @@ form.popupform label {
 #page-admin-register .mform .fsubmit {
    padding: 20px;
    text-align: center;
+}
+
+.mform fieldset .fcontainer {
+   padding: 10px 0;
+   margin: 0;
+   margin-top: -1em;
+   width: 100%;
+   background-color: #fff;
+} 
+
+.mform fieldset div.advancedbutton {
+   padding: 5px 20px 0 0;
+   margin: 0;
+   background-color: #fff;
 }
 
 /**
@@ -893,7 +930,7 @@ table#tag-management-list {
    display: inline-block;
    margin-left: 0;
    height: 30px;
-   padding: 5px 0 0 20px;
+   padding: 5px 7px 0 20px;
    background: transparent url([[pix:theme|navbar]]) 0 0 no-repeat;
 }
 
@@ -901,6 +938,10 @@ table#tag-management-list {
    background: transparent;
    margin-left: 15px;
    padding-left: 0;
+}
+
+.navbar .breadcrumb li:last-child {
+   background-position: 0 -120px;
 }
 
 .navbar .navbutton {
