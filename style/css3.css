@@ -254,7 +254,7 @@ table.minicalendar {
    border-image: url([[pix:theme|borders]]) 10 10 stretch;
 }
 
-.course-content ul.topics li.section, .course-content ul.weeks li.section, .mform fieldset, div#resourceintro.mod_introbox {
+.course-content ul.topics li.section, .course-content ul.weeks li.section, .mform fieldset, div#resourceintro.mod_introbox, .headingblock {
    border-width: 10px;
    -moz-border-image: url([[pix:theme|borders]]) 10 10 stretch;
    -webkit-border-image: url([[pix:theme|borders]]) 10 10 stretch;

@@ -89,12 +89,15 @@ div.header,
 
 .headingblock {
    border: 1px solid #DDD;
-   padding: 5px;
    margin-top: 0;
+   display: none;
+   
 }
 
 h2.headingblock {
    font-size: 1.1em;
+   padding: 10px 0 5px 0;
+   text-align: center;
 }
 
 .headingblock .outline {
@@ -157,10 +160,9 @@ h2.header.outline {
 }
 
 .generaltable {
-   border: 1px solid #DDD;
+   border: 1px solid #ccc;
    border-collapse: collapse;
    background-color: #FFF;
-   border-color: #EEEEEE;
 }
 
 .generaltable.mdl-align {
@@ -168,13 +170,13 @@ h2.header.outline {
 }
 
 .generaltable td {
-   border: 1px solid #DDD;
+   border: 1px solid #ccc;
    vertical-align: top;
 }
 
 .generaltable .cell {
    background-color: #FFFFFF;
-   border-color: #EEEEEE;
+   border-color: #ccc;
 }
 
 #page-site-index .subscribelink,
@@ -928,20 +930,25 @@ table#tag-management-list {
 
 .navbar .breadcrumb li {
    display: inline-block;
-   margin-left: 0;
+   margin-left: -20px;
    height: 30px;
-   padding: 5px 7px 0 20px;
+   padding: 5px 27px 0 20px;
    background: transparent url([[pix:theme|navbar]]) 0 0 no-repeat;
 }
 
-.navbar .breadcrumb li:first-child {
-   background: transparent;
-   margin-left: 15px;
-   padding-left: 0;
+
+.navbar .breadcrumb li:not(:last-of-type) {
+   background-position: -250px 0;
 }
 
-.navbar .breadcrumb li:last-child {
+.navbar .breadcrumb li:first-child {
    background-position: 0 -120px;
+   margin-left: 0;
+   padding-left: 15px;
+}
+
+.navbar .breadcrumb li:only-child {
+   background-position: 0 -30px;
 }
 
 .navbar .navbutton {

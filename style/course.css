@@ -2,12 +2,15 @@
 .course-content ul.weeks li.section {border: 1px solid #f4f4f4; background-color: transparent;}
 .course-content ul.weeks li.section .content {background-color: #FFF; padding: 0; margin: 0;}
 .course-content ul.weeks li.section .content h3 {margin: 0; color: #777; font-weight: normal;}
-.course-content ul.weeks li.section .left {padding:5px 0;}
-.course-content ul.weeks li.section .right {padding:5px 0;}
+.course-content ul.weeks li.section .left {padding:5px;}
+.course-content ul.weeks li.section .right {padding:5px;}
 .course-content ul.weeks li.section .sectionname {float: left;}
 .course-content ul.topics li.section {border: 1px solid #f4f4f4; background-color: transparent;}
 .course-content ul.topics li.section .content {background-color: #FFF; padding: 0; margin: 0;}
-.course-content ul.topics li.section .content h3.sectionname {margin: 0; padding-left: 2em; margin-right: -40px;height: 24px; background: transparent url([[pix:theme|navbar]]) 0 -60px repeat-x;}
+.course-content ul.topics li.section .content h3.sectionname {margin: 0; padding: 4px 0 0 2em; height: 24px; background: transparent url([[pix:theme|navbar]]) 0 -60px repeat-x;}
+.course-content ul.topics li.section .left {padding:5px;}
+.course-content ul.topics li.section .right {padding:5px;}
+.course-content ul.topics li.section .content li.activity, .course-content ul.topics li.section .content li.resource {padding: 2px 0;}
 
 /** Course **/
 .coursebox {border:1px solid #DDD;border-color:#DDDDDD;}
@@ -22,6 +25,9 @@
 #page-course-recent .grade {font-style: italic;font-size:0.9em;}
 #page-course-recent .forum-recent .reply .title {font-style: italic;font-size:0.9em;}
 #page-course-recent .forum-recent .discussion .title {font-weight:bold;font-style: italic;font-size:0.9em;}
+
+.course-content ul.topics li.section .content .togglecompletion {margin-right: 20px; padding: 5px;}
+.course-content ul.topics li.section .content .autocompletion {margin-right: 20px; padding: 5px;}
 
 .path-course-view .availabilityinfo {font-size:0.85em;color:#aaa;}
 .path-course-view .availabilityinfo strong {font-weight:normal;color:black;}
@@ -69,7 +75,7 @@
 #page-course-import .plugin {margin-bottom: 20px;margin-left:10%;margin-right:10%;border: 1px solid #cecece;background-color: #fdfdfd;}
 
 .path-course-view .unread {background: #9EBEFF;}
-.path-course-view .completionprogress {font-size:0.80em; padding:8px 26px 5px 5px;}
+.path-course-view .completionprogress {font-size:0.80em; padding:20px 26px 5px 5px;}
 
 #page-course-category .courseboxes,
 #page-course-index .courseboxes {padding:20px;}
