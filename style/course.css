@@ -14,6 +14,7 @@
 .course-content ul.topics li.section .left {padding:5px;}
 .course-content ul.topics li.section .right {padding:5px;}
 .course-content ul.topics li.section .content li.activity, .course-content ul.topics li.section .content li.resource {padding: 2px 0;}
+.course-content ul.topics li.section .content li.activity:last-of-type, .course-content ul.topics li.section .content li.resource:last-of-type {margin-bottom: 5px;}
 
 /** Course **/
 .coursebox {border:1px solid #DDD;border-color:#DDDDDD;}

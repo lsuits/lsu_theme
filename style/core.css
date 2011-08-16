@@ -1264,7 +1264,9 @@ table#tag-management-list {
 
 #custommenu {
    float: right;
-   width: 790px;
+   width: auto;
+   min-width: 830px;
+   max-width; 1130px;
    clear: none;
    padding: 0;
    color: #fff;
