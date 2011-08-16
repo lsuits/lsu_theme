@@ -43,7 +43,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_lsu/linkcolor';
     $title = get_string('linkcolor','theme_lsu');
     $description = get_string('linkcolordesc', 'theme_lsu');
-    $default = '#80729d';
+    $default = '#461d7c';
     $previewconfig = array('selector'=>'.block .content', 'style'=>'linkcolor');
     $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
     $settings->add($setting);

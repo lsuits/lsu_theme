@@ -91,7 +91,6 @@ div.header,
    border: 1px solid #DDD;
    margin-top: 0;
    display: none;
-   
 }
 
 h2.headingblock {
@@ -691,6 +690,10 @@ form.popupform label {
    padding-bottom: 0;
 }
 
+.mform fieldset.hidden {
+   display: block;
+}
+
 .mform .fpassword .unmask input {
    margin-left: 5px;
    margin-right: 3px;
@@ -967,7 +970,7 @@ table#tag-management-list {
 }
 
 .navbar a:hover {
-   color: #80729d;
+   color: #461d7c;
    text-decoration: underline;
 }
 

@@ -14,15 +14,16 @@
 .course-content ul.topics li.section .left {padding:5px;}
 .course-content ul.topics li.section .right {padding:5px;}
 .course-content ul.topics li.section .content li.activity, .course-content ul.topics li.section .content li.resource {padding: 2px 0;}
-.course-content ul.topics li.section .content li.activity:last-of-type, .course-content ul.topics li.section .content li.resource:last-of-type {margin-bottom: 5px;}
 
 /** Course **/
-.coursebox {border:1px solid #DDD;border-color:#DDDDDD;}
+.coursebox {border:1px solid #DDD;border-color:#DDDDDD;background-color: #f4f4f4;}
 .coursebox .info {margin:5px;font-size:1em;}
 .coursebox .info .name {margin:3px 0;}
 .coursebox .info .teachers {margin:0 1em;font-size:0.9em;}
 .coursebox .cost {font-size:0.9em;padding-top: 20px;}
 .coursebox .summary {margin:5px;font-size:0.9em;}
+
+.block_course_overview div.content {padding: 10px 12px 10px 10px; margin: 0; background-color:#fff;}
 
 #page-course-recent h2.main {font-size:1.1em;}
 #page-course-recent .user {font-size:0.75em;}
@@ -30,6 +31,8 @@
 #page-course-recent .forum-recent .reply .title {font-style: italic;font-size:0.9em;}
 #page-course-recent .forum-recent .discussion .title {font-weight:bold;font-style: italic;font-size:0.9em;}
 
+.course-content ul.weeks li.section .content .togglecompletion {margin-right: 20px; padding: 5px;}
+.course-content ul.weeks li.section .content .autocompletion {margin-right: 20px; padding: 5px;}
 .course-content ul.topics li.section .content .togglecompletion {margin-right: 20px; padding: 5px;}
 .course-content ul.topics li.section .content .autocompletion {margin-right: 20px; padding: 5px;}
 
@@ -46,7 +49,7 @@
 .path-course-view .weeks .section,
 .path-course-view .topics .section,
 .path-course-view .section td {border-color:#DDDDDD;}
-.path-course-view .weeks .content ,
+.path-course-view .weeks .content,
 .path-course-view .topics .content,
 .path-course-view .weeks .section,
 .path-course-view .topics .section {background-color: transparent;}

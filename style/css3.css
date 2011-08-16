@@ -59,7 +59,6 @@ table.minicalendar td,
 
 .categorybox,
 .categoryboxcontent,
-.coursebox,
 .notifyproblem,
 .notifysuccess,
 table.minicalendar {
@@ -75,7 +74,6 @@ table.minicalendar {
 }
 
 .block_course_summary,
-.block_course_summary .content,
 #page-course-user .section {
   -moz-border-radius:10px;
   -webkit-border-radius: 10px;
@@ -173,7 +171,6 @@ table.minicalendar {
 .userinfobox,
 .groupinfobox,
 .forumpost,
-.block .content,
 .glossarycomment {
   -moz-border-radius-bottomright:10px;
   -moz-border-radius-bottomleft:10px;
@@ -260,4 +257,13 @@ table.minicalendar {
    -webkit-border-image: url([[pix:theme|borders]]) 10 10 stretch;
    -o-border-image: url([[pix:theme|borders]]) 10 10 stretch;
    border-image: url([[pix:theme|borders]]) 10 10 stretch;
+}
+
+.block_course_overview div.coursebox {
+  -moz-border-radius-bottomright: 1em;
+  -webkit-border-bottom-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  -moz-border-radius-topright: 1em;
+  -webkit-border-top-right-radius: 1em;
+  border-top-right-radius: 1em;
 }
