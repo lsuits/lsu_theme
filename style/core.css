@@ -8,6 +8,11 @@ body {
    background-color: #F4F4F4;
 }
 
+#page-content .block input {
+   background-color: #f4f4f4;
+   border: 1px solid #cecece;
+}
+
 body.lang-vi {
    font-family: Arial, Verdana, Helvetica, sans-serif !important;
 }

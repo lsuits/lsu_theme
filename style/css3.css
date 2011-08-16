@@ -28,9 +28,6 @@
  */
 
 .block.hidden {
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
 }
 
 .headingblock,
@@ -62,9 +59,9 @@ table.minicalendar td,
 .notifyproblem,
 .notifysuccess,
 table.minicalendar {
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .sitetopiccontent {
@@ -242,7 +239,7 @@ table.minicalendar {
         border-bottom-left-radius:10px;
 }
 
-.block {
+.block, .path-calendar .maincalendar {
    border-width: 10px;
    margin: 0;
    -moz-border-image: url([[pix:theme|borders]]) 10 10 stretch;
