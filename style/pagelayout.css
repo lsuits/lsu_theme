@@ -30,11 +30,11 @@
 body {margin:auto 0px;width:auto;}
 #page {width:100%;position:relative;}
 #page-header {float:left;width:100%;}
-#page-content {clear:both;float:left;overflow:hidden;position:relative;width:100%;min-width:900px;}
+#page-content {clear:both;float:left;overflow:hidden;position:relative;width:100%;min-width:845px;}
 #page-content #region-main-box {float:left;left:200px;position:relative;width:200%;}
 #page-content #region-post-box {float:left;left:50%;margin-left:-400px;position:relative;width:100%;}
 #page-content #region-main-wrap {float:right;position:relative;right:100%;width:50%;}
-#page-content #region-main {margin-right:0px;margin-left:400px;overflow:hidden; padding-right: 10px;}
+#page-content #region-main {margin-right:0px;margin-left:400px;overflow:hidden;}
 #page-content #region-pre {float:left;left:200px;overflow:hidden;position:relative;width:200px;margin-left:-50%;}
 #page-content #region-post {float:left;left:0px;overflow:hidden;position:relative;width:200px;}
 #page-content .region-content {overflow:hidden;padding:0;}

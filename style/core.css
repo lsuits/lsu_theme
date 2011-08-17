@@ -905,7 +905,7 @@ table#tag-management-list {
 #page-header .headermain {
    font-size: 1em;
    float: none;
-   margin: 28px 0 0 235px;
+   margin: 42px 0 0 225px;
    color: #fdd023;
 }
 
@@ -916,7 +916,7 @@ table#tag-management-list {
 
 .pagelayout-frontpage #page-header, #page-header {
    border: none;
-   height: 50px;
+   height: 60px;
    margin: 0;
    width: 100%;
 }
