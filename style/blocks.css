@@ -21,7 +21,7 @@
 .block .content .head {margin-top: 10px;}
 .block .header .icon.hide,
 .block .header .icon.edit {margin-right: 6px;}
-.block .tree-item img.smallicon {margin-bottom: 10px; vertical-align: top;}
+.block img.smallicon {}
 
 .block-region .hidden .header {border-bottom-color: #dddddd;}
 .blockannotation {color:#aaa;}
