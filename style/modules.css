@@ -76,7 +76,7 @@ table.mod_index {width:90%;margin:1em auto;}
 #page-mod-folder-view .foldertree {width: 90%;margin:0 auto;}
 
 /** Forum **/
-.forumpost {border-color:#DDDDDD;}
+.forumpost {border-color:#DDDDDD;background-color:#fff;}
 .forumpost .row {background-color:#FFF;}
 .forumpost .row.header {background-color:#EEE;background-image:none;}
 .forumpost.firstpost .row.header {background-color:#DDD;}

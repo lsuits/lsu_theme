@@ -30,7 +30,6 @@
 .block.hidden {
 }
 
-.headingblock,
 table.minicalendar td,
 .path-calendar .maincalendar .filters table,
 .path-calendar .sidecalendar .filters table,
@@ -49,15 +48,8 @@ table.minicalendar td,
 }
 
 .noticebox {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
 }
 
-.categorybox,
-.categoryboxcontent,
-.notifyproblem,
-.notifysuccess,
 table.minicalendar {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -65,34 +57,16 @@ table.minicalendar {
 }
 
 .sitetopiccontent {
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
 }
 
 .block_course_summary,
 #page-course-user .section {
-  -moz-border-radius:10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
 }
 
 .generalbox,
 .generalboxcontent,
 .informationbox,
 .informationboxcontent {
-  -moz-border-radius-topleft: 3px;
-  -moz-border-radius-topright: 3px;
-  -moz-border-radius-bottomleft: 15px;
-  -moz-border-radius-bottomright: 15px;
-  -webkit-border-top-left-radius: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -webkit-border-bottom-left-radius: 15px;
-  -webkit-border-bottom-right-radius: 15px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
 
 .editing .block_course_summary .content {
@@ -105,12 +79,6 @@ table.minicalendar {
 }
 
 .entryboxheader {
-  -moz-border-radius-topleft:10px;
-  -moz-border-radius-topright:10px;
-  -webkit-border-top-left-radius: 10px;
-  -webkit-border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
 .generaltabselected,
@@ -126,17 +94,9 @@ table.minicalendar {
 }
 
 .entrybox {
-  -moz-border-radius-bottomleft:10px;
-  -moz-border-radius-bottomright:10px;
-  -webkit-border-bottom-left-radius: 10px;
-  -webkit-border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
-.path-calendar .eventlist .event,
-.glossarypost,
-#page-mod-journal-view .feedbackbox{
+.path-calendar .eventlist .event {
   -moz-border-radius-bottomleft:15px;
   -moz-border-radius-bottomright:15px;
   -webkit-border-bottom-left-radius: 15px;
@@ -145,17 +105,13 @@ table.minicalendar {
   border-bottom-right-radius: 15px;
 }
 
-.path-calendar .eventlist .event .side,
-.glossarypost .side,
-#page-mod-journal-view .feedbackbox .side {
+.path-calendar .eventlist .event .side {
   -moz-border-radius-bottomleft:15px;
   -webkit-border-bottom-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 
-.path-calendar .eventlist .event .description,
-.encyclopedia .entrylowersection,
-#page-mod-journal-view .feedbackbox .entrycontent {
+.path-calendar .eventlist .event .description {
   -moz-border-radius-bottomright:15px;
   -webkit-border-bottom-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -163,12 +119,7 @@ table.minicalendar {
 
 .path-calendar .maincalendar,
 .path-calendar .sidecalendar,
-.path-calendar td.sidecalendar .block,
-.loginbox,
-.userinfobox,
-.groupinfobox,
-.forumpost,
-.glossarycomment {
+.path-calendar td.sidecalendar .block {
   -moz-border-radius-bottomright:10px;
   -moz-border-radius-bottomleft:10px;
   -webkit-border-bottom-left-radius: 10px;
@@ -181,9 +132,6 @@ table.minicalendar {
 #page-user-view .left,
 .forumpost .side,
 .glossarycomment .side {
-  -moz-border-radius-bottomleft:10px;
-  -webkit-border-bottom-left-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 
 .loginbox .content.right,
@@ -191,9 +139,6 @@ table.minicalendar {
 .forumpost .message,
 .forumpost .side,
 .glossarycomment .entry {
-  -moz-border-radius-bottomright:10px;
-  -webkit-border-bottom-right-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 #quiznavigation .qnbutton {
@@ -202,41 +147,23 @@ table.minicalendar {
 
 #page-mod-quiz-edit div.editq div.question div.content,
 #page-mod-quiz-edit div.quizpage .pagecontent {
-  -moz-border-radius-topright: 0.6em;
-  -moz-border-radius-bottomright: 0.6em;
-  -webkit-border-top-right-radius: 0.6em;
-  -webkit-border-bottom-right-radius: 0.6em;
-  border-top-right-radius: 0.6em;
-  border-bottom-right-radius: 0.6em;
 }
+
 #page-mod-quiz-edit div.quizpage .pagecontent .pagestatus,
 #page-mod-quiz-edit .reorder div.question div.content{
-  -moz-border-radius-topright: 0.3em;
-  -moz-border-radius-bottomright: 0.3em;
-  -webkit-border-top-right-radius: 0.3em;
-  -webkit-border-bottom-right-radius: 0.3em;
-  border-top-right-radius: 0.3em;
-  border-bottom-right-radius: 0.3em;
 }
+
 #page-mod-quiz-edit div.question div.content div.points,
 #page-mod-quiz-edit div.question div.content div.qorder {
-  -moz-border-radius-topright: 0.2em;
-  -moz-border-radius-bottomright: 0.2em;
-  -webkit-border-top-right-radius: 0.2em;
-  -webkit-border-bottom-right-radius: 0.2em;
-  border-top-right-radius: 0.2em;
-  border-bottom-right-radius: 0.2em;
 }
+
 #page-mod-quiz-edit div.quizpage .pagecontent form#addquestion{
-    -moz-border-radius:0.2em;
-    -webkit-border-radius: 0.2em;
-    border-radius: 0.2em;
 }
 
 #custommenu {
-        -webkit-border-bottom-left-radius:10px;
-        -moz-border-radius-bottomleft:10px;
-        border-bottom-left-radius:10px;
+        -webkit-border-bottom-left-radius:15px;
+        -moz-border-radius-bottomleft:15px;
+        border-bottom-left-radius:15px;
 }
 
 .block, .path-calendar .maincalendar {

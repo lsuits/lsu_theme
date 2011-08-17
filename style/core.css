@@ -1,20 +1,24 @@
 html, body#tinymce {
-   background-color: #F4F4F4;
+   background-color: #eee;
 }
-
+ 
 body {
    font-family: Arial, Verdana, Helvetica, sans-serif;
    padding: 0;
-   background-color: #F4F4F4;
+   background-color: #eee;
 }
 
-#page-content .block input {
-   background-color: #f4f4f4;
-   border: 1px solid #cecece;
+#page-content .block .footer input {
+   background-color: #eee;
+   border: 1px solid #ccc;
 }
 
 body.lang-vi {
    font-family: Arial, Verdana, Helvetica, sans-serif !important;
+}
+
+form#adminsettings fieldset {
+   background-color: #fff;
 }
 
 /**
@@ -23,17 +27,17 @@ body.lang-vi {
 
 a {
    text-decoration: none;
-   color: #0000FF;
+   color: #000;
 }
 
 a.autolink {
-   color: #000000;
-   background: #DDDDDD;
+   color: #000;
+   background-color: transparent;
 }
 
 a:hover {
    text-decoration: underline;
-   color: #FF0000;
+   color: #aaa;
 }
 
 .img-text a:hover {
@@ -47,18 +51,11 @@ a:hover {
 .homelink a {
    color: #000;
    text-decoration: none;
-   border-top: 1px solid #cecece;
-   border-bottom: 2px solid #4a4a4a;
-   border-left: 1px solid #cecece;
-   border-right: 2px solid #4a4a4a;
+   border: 1px solid #ccc;
 }
 
 .homelink a:hover {
-   text-decoration: none;
-   border-bottom: 1px solid #cecece;
-   border-top: 2px solid #4a4a4a;
-   border-right: 1px solid #cecece;
-   border-left: 2px solid #4a4a4a;
+   border: 1px solid #ccc;
 }
 
 /**
@@ -89,11 +86,11 @@ div.header,
 .informationbox,
 .noticebox,
 .tabledivider {
-   border-color: #DDD;
+   border-color: #ccc;
 }
 
 .headingblock {
-   border: 1px solid #DDD;
+   border: 1px solid #ccc;
    margin-top: 0;
    display: none;
 }
@@ -105,11 +102,15 @@ h2.headingblock {
 }
 
 .headingblock .outline {
-   border-color: #DDDDDD;
+   border-color: #ccc;
+}
+
+div.generalbox {
+   background-color: #fff;
 }
 
 div.header {
-   background: transparent url([[pix:theme|navbar]]) 0 -60px repeat-x;
+   background: transparent url([[pix:theme|navbar]]) 0 -120px repeat-x;
    padding: 0;
    margin; 0;
 }
@@ -124,8 +125,8 @@ h2.header.outline {
 }
 
 .sitetopiccontent {
-   border-color: #DDDDDD;
-   background-color: #FFFFFF;
+   border-color: #ccc;
+   background-color: #fff;
 }
 
 .notifytiny {
@@ -143,7 +144,7 @@ h2.header.outline {
 }
 
 .errorbox {
-   color: #ffffff;
+   color: #fff;
    border-color: #660000;
    background-color: #990000;
    font-style: italic;
@@ -152,7 +153,7 @@ h2.header.outline {
 .errorbox .title {
    font-size: 1.2em;
    text-align: center;
-   background-color: #FFBBBB;
+   background-color: #ffbbbb;
 }
 
 .errorboxcontent {
@@ -166,7 +167,7 @@ h2.header.outline {
 .generaltable {
    border: 1px solid #ccc;
    border-collapse: collapse;
-   background-color: #FFF;
+   background-color: #fff;
 }
 
 .generaltable.mdl-align {
@@ -179,7 +180,7 @@ h2.header.outline {
 }
 
 .generaltable .cell {
-   background-color: #FFFFFF;
+   background-color: #fff;
    border-color: #ccc;
 }
 
@@ -209,11 +210,11 @@ a:hover.useredit,
    cursor: help;
 }
 
-tr.r0 td.cell {
+table.generaltable tr.r0 td.cell {
    background-color: #eee;
 }
 
-tr.r1 td.cell {
+table.generaltable tr.r1 td.cell {
    background-color: #fff;
 }
 
@@ -223,7 +224,7 @@ tr.r1 td.cell {
 
 img.userpicture,
 img.grouppicture {
-   border: 0px solid #000
+   border: 0px solid #ccc;
 }
 
 table.formtable tbody th {
@@ -232,33 +233,33 @@ table.formtable tbody th {
 }
 
 .highlight {
-   background-color: #AAFFAA;
+   background-color: #aaffaa;
 }
 
 .unread {
-   background: #FFD991;
+   background: #ffd991;
 }
 
 .censoredtext {
-   color: #000000;
-   background: #000000;
+   color: #000;
+   background: #000;
 }
 
 .censoredtexthighlight {
-   color: #000000;
-   background: #B0B0B0;
+   color: #000;
+   background: #b0b0b0;
 }
 
 .navigation select {
-   background-color: #FFFFFF;
+   background-color: #fff;
 }
 
 .navigation optgroup {
-   background-color: #EEEEEE;
+   background-color: #eee;
 }
 
 .navigation optgroup option {
-   background-color: #FFFFFF;
+   background-color: #eee;
 }
 
 .mod_introbox {
@@ -360,6 +361,11 @@ div.resourceworkaround {
 
 .my .courseboxcontent .overview .info {
    font-size: 0.7em;
+}
+
+#page-my-index .coursebox:hover {
+   background-color: #ccc;
+   border-color: #aaa;
 }
 
 /**
@@ -923,7 +929,7 @@ table#tag-management-list {
    margin: 0;
    height: 30px;
    border: none;
-   background: #fff url([[pix:theme|navbar]]) 0 -30px repeat-x;
+   background: #fff url([[pix:theme|navbar]]) 0 -60px repeat-x;
 }
 
 .navbar .arrow, .navbar .sep {
@@ -946,17 +952,17 @@ table#tag-management-list {
 
 
 .navbar .breadcrumb li:not(:last-of-type) {
-   background-position: -250px 0;
+   background-position: 0 -30px;
 }
 
 .navbar .breadcrumb li:first-child {
-   background-position: 0 -120px;
+   background-position: 0 -90px;
    margin-left: 0;
    padding-left: 15px;
 }
 
 .navbar .breadcrumb li:only-child {
-   background-position: 0 -30px;
+   background-position: 0 -60px;
 }
 
 .navbar .navbutton {

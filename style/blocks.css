@@ -21,6 +21,7 @@
 .block .content .head {margin-top: 10px;}
 .block .header .icon.hide,
 .block .header .icon.edit {margin-right: 6px;}
+.block .tree-item img.smallicon {margin-bottom: 10px; vertical-align: top;}
 
 .block-region .hidden .header {border-bottom-color: #dddddd;}
 .blockannotation {color:#aaa;}
@@ -86,3 +87,12 @@
 
 /** Site main menu **/
 .block_site_main_menu .footer select {font-size: 0.8em;}
+
+.block div.content:hover {
+   background-color: #f4f4f4;
+}
+
+.block_course_overview div.content:hover {
+   background-color: #fff;
+}
+
