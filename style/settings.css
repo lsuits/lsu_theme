@@ -7,7 +7,7 @@ a:hover {
 }
 
 #page-header{
-        background:url([[setting:header_background_image]]) [[setting:header_bgcolor]] 1em 1em no-repeat;
+        background:url([[setting:header_background_image]]) [[setting:header_bgcolor]] 10px 25px no-repeat;
 }
 
 #page-content #region-main-box {
