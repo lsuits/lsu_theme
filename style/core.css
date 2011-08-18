@@ -272,6 +272,14 @@ table.formtable tbody th {
    padding: 10px;
 }
 
+.userlist {
+   text-align: center;
+}
+
+.userlist div.no-overflow table {
+   margin: 0 auto;
+}
+
 div.resourceworkaround {
    padding: 10px;
    text-align: center;
