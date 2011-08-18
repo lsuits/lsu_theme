@@ -25,7 +25,7 @@ if ($hascustommenu) {
     $bodyclasses[] = 'has_custom_menu';
 }
 
-$OUTPUT->doctype() ?>
+echo $OUTPUT->doctype() ?>
 <html <?php echo $OUTPUT->htmlattributes() ?>>
 <head>
     <title><?php echo $PAGE->title ?></title>
@@ -56,34 +56,20 @@ $OUTPUT->doctype() ?>
 <!-- END OF HEADER -->
 
     <div id="page-content" class="clearfix">
-        <div id="region-main-box">
-            <div id="region-post-box">
-
-                <div id="region-main-wrap">
-                    <div id="region-main">
-                        <div class="region-content">
-                            <?php echo core_renderer::MAIN_CONTENT_TOKEN ?>
-                        </div>
-                    </div>
-                </div>
-
-                <?php if ($hassidepre) { ?>
-                <div id="region-pre" class="block-region">
-                    <div class="region-content">
-                        <?php echo $OUTPUT->blocks_for_region('side-pre') ?>
-                    </div>
-                </div>
-                <?php } ?>
-
-                <?php if ($hassidepost) { ?>
-                <div id="region-post" class="block-region">
-                    <div class="region-content">
-                        <?php echo $OUTPUT->blocks_for_region('side-post') ?>
-                    </div>
-                </div>
-                <?php } ?>
+        <div id="report-main-content">
+            <div class="region-content">
+                <?php echo core_renderer::MAIN_CONTENT_TOKEN ?>
             </div>
         </div>
+        <?php if ($hassidepre) { ?>
+        <div id="report-region-wrap">
+            <div id="report-region-pre" class="block-region">
+                <div class="region-content">
+                    <?php echo $OUTPUT->blocks_for_region('side-pre') ?>
+                </div>
+            </div>
+        </div>
+        <?php } ?>
     </div>
 
 <!-- START OF FOOTER -->
@@ -95,8 +81,6 @@ $OUTPUT->doctype() ?>
         echo $OUTPUT->home_link();
         echo $OUTPUT->standard_footer_html();
         ?>
-        <div class="rounded-corner bottom-left"></div>
-        <div class="rounded-corner bottom-right"></div>
     </div>
     <?php } ?>
 </div>

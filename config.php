@@ -46,7 +46,6 @@ $THEME->layouts = array(
         'regions' => array('side-pre', 'side-post'),
         'defaultregion' => 'side-post',
     ),
-    // Course page
     'coursecategory' => array(
         'file' => 'general.php',
         'regions' => array('side-pre', 'side-post'),
@@ -117,9 +116,11 @@ $THEME->layouts = array(
         'regions' => array(),
         'options' => array('nofooter'=>true, 'nonavbar'=>false, 'noblocks'=>true),
     ),
+    // The pagelayout used for reports
     'report' => array(
         'file' => 'report.php',
-        'regions' => array(),
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
     ),
 );
 
