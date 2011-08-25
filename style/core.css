@@ -564,6 +564,10 @@ table.rotateheaders th.header {
    text-align: center;
 }
 
+.lastinitial {
+   margin-bottom: 10px;
+}
+
 .helplink img {
    margin: 0 2px;
 }

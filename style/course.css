@@ -20,7 +20,7 @@
 }
 
 .course-content ul.weeks li.section .content .summary {
-   padding: 10px 0 0 20px;
+   padding: 10px 20px 0 20px;
 }
 
 .course-content ul.weeks li.section .content h3 {
@@ -81,7 +81,7 @@
 }
 
 .course-content ul.topics li.section .content .summary {
-   padding: 10px 0 0 20px;
+   padding: 10px 20px 0 20px;
 }
 
 .course-content ul.topics li.section .content h3.sectionname {
@@ -307,10 +307,15 @@
 #page-course-report .plugin,
 #page-course-import .plugin {
    margin-bottom: 20px;
-   margin-left:10%;
-   margin-right:10%;
+   margin-left:20px;
+   margin-right:20px;
+   margin-top: 10px;
    border: 1px solid #cecece;
    background-color: #fdfdfd;
+}
+
+.path-course-report ul.progress-actions li {
+   list-style-type: none;
 }
 
 .path-course-view .unread {
@@ -337,6 +342,10 @@
 #page-course-report-log-indexlive #region-main .info,
 #page-course-report-stats-index #region-main .graph {
    text-align: center;
+}
+
+.generaltable {
+   background-color: #fff;
 }
 
 #page-course-report .logselectform,

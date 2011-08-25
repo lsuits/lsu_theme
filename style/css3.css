@@ -177,6 +177,7 @@ table.minicalendar {
 
 .course-content ul.topics li.section, .course-content ul.weeks li.section, .mform fieldset, div#resourceintro.mod_introbox, .headingblock {
    border-width: 10px;
+   background-color: transparent;
    -moz-border-image: url([[pix:theme|borders]]) 10 10 stretch;
    -webkit-border-image: url([[pix:theme|borders]]) 10 10 stretch;
    -o-border-image: url([[pix:theme|borders]]) 10 10 stretch;
