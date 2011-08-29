@@ -173,22 +173,22 @@
 }
 
 .course-content ul.weeks li.section .content .togglecompletion {
-   margin-right: 20px;
+   margin-right: 30px;
    padding: 5px;
 }
 
 .course-content ul.weeks li.section .content .autocompletion {
-   margin-right: 20px;
+   margin-right: 30px;
    padding: 5px;
 }
 
 .course-content ul.topics li.section .content .togglecompletion {
-   margin-right: 20px;
+   margin-right: 30px;
    padding: 5px;
 }
 
 .course-content ul.topics li.section .content .autocompletion {
-   margin-right: 20px;
+   margin-right: 30px;
    padding: 5px;
 }
 
@@ -253,12 +253,6 @@
 
 .path-course-view .section td.side {
    background: #FFFFFF;
-}
-
-.path-course-view .weeks .current,
-.path-course-view .topics .current,
-.path-course-view .current td.side {
-   background: #FFD991;
 }
 
 .path-course-view .weeks .hidden,

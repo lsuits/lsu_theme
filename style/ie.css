@@ -1,0 +1,184 @@
+/***************************************
+ ***************** IE ******************
+ **************************************/
+
+
+.ie .course-content ul {
+   margin-top: 8px;
+}
+
+.ie .block,
+.ie .path-calendar .maincalendar,
+.ie .course-content ul.topics li.section,
+.ie .course-content ul.weeks li.section,
+.ie .mform fieldset,
+.ie div #resourceintro .mod_introbox,
+.ie .headingblock {
+   border-width: 1px;
+   margin: 9px;
+   border-color: #ccc;
+}
+
+
+
+
+
+/***************************************
+ ***************** IE9 *****************
+ **************************************/
+
+
+
+
+
+
+/***************************************
+ ***************** IE8 *****************
+ **************************************/
+
+
+
+
+
+
+/***************************************
+ ***************** IE7 *****************
+ **************************************/
+
+
+.ie7 .tabtree .tabrow0 li {
+   margin-left: 0;
+}
+
+.ie7 .tabtree .tabrow0 li.first {
+   margin-right: -4px;
+}
+
+.ie7 .tabtree .tabrow0 li.onerow {
+   margin-right: 0;}.ie7 .tabtree .tabrow0 a {
+   display: inline-block;
+   padding: 8px 0 0.35em 13px;
+   line-height: 1.5em;
+}
+
+.ie7 .tabtree .tabrow0 a span {
+   padding: 10px 1em 10px 0;
+}
+
+.ie7 .tabtree .tabrow0 div {
+   top: 2.6em;
+   padding: 0.2em 0;
+}
+
+.ie7 .tabtree .tabrow0 div.empty {
+   margin-right: 0;
+}
+
+.ie7.mod-quiz div.tabtree a span img.iconsmall {
+   margin: 0;
+   vertical-align: baseline;
+   position: relative;
+   top: 2px;
+}
+
+.ie7 #dock .bd.oversized_content .content {
+   padding-bottom: 0px;
+}
+
+.ie7 .block_js_expansion.mouseover .content {
+   padding-bottom: 2px;
+}
+
+
+
+
+/***************************************
+ ***************** IE6 *****************
+ **************************************/
+
+
+.ie6 .tabtree {
+   height: 100%;
+}
+
+.ie6 .tabtree .tabrow0 {
+   padding-top: 10px;
+}
+
+.ie6 .tabtree .tabrow0 li {
+   margin-left: 0;
+}
+
+.ie6 .tabtree .tabrow0 li.first {
+   margin-left: -4px;
+   margin-right: -4px;
+}
+
+.ie6 .tabtree .tabrow0 li.last a {
+   margin-right: 0;
+}
+
+.ie6 .tabtree .tabrow0 li.onerow {
+   margin-right: 0;
+}
+
+.ie6 .tabtree .tabrow0 a {
+   padding: 0 0 0 13px;
+}
+
+.ie6 .tabtree .tabrow0 a span {
+   padding: 12px 1em 4px 0;
+}
+
+.ie6 .tabtree .tabrow0 div {
+   top: 3.5em;
+   padding: 0.2em 0;
+}
+
+.ie6 .que .info {
+   display: inline;
+}
+
+.ie6.course-view li.activity {
+   height: 0;
+}
+
+.ie6 #help_icon_tooltip .yui-tt-shadow-visible {
+   background-color: transparent;
+}
+
+.ie6 .block .block_tree {
+   width: 160px;
+   overflow-x: scroll;
+}
+
+.ie6 .block_tree .tree_item {
+   width: 100%;
+}
+
+.ie6 #dock {
+   position: absolute;
+}
+
+.ie6 #dock hr {
+   display: none;
+   margin: 0px;
+   height: 0px;
+   padding: 0px;
+}
+
+.ie6 #dock li p {
+   background-color: inherit;
+}
+
+.ie6 #dock .bd.oversized_content .content{
+   padding-bottom: 0px;
+}
+
+.ie6 .block_js_expansion.mouseover .content {
+   padding-bottom: 2px;
+}
+
+.ie6 #dock .bd.oversized_content {
+   width: 100%;
+}

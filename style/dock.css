@@ -16,13 +16,3 @@
 .block_js_expansion .block_tree {overflow-x:scroll;}
 .block_js_expansion.mouseover .content {width:200%;z-index:1000;position:relative;}
 .block_js_expansion.mouseover .content .block_tree {width:100%; background-color:#FAFAFA; padding-bottom:0px;}
-
-/** IE stylings */
-.ie6 .block .block_tree {width:160px;overflow-x:scroll;}
-.ie6 .block_tree .tree_item {width:100%;}
-.ie6 #dock {position:absolute;}
-.ie6 #dock hr {display:none;margin:0px;height:0px;padding:0px;}
-.ie6 #dock li p {background-color:inherit;}
-.ie6 #dock .bd.oversized_content .content, .ie7 #dock .bd.oversized_content .content {padding-bottom:0px;}
-.ie6 .block_js_expansion.mouseover .content, .ie7 .block_js_expansion.mouseover .content{ padding-bottom:2px;}
-.ie6 #dock .bd.oversized_content {width:100%;}

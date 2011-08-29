@@ -1,36 +1,129 @@
 /** Grades **/
-#page-grade-index .grades .header {font-weight: bold; font-size: 0.7em;}
 
-#grade-aggregation-help dt {font-weight: bold;}
-#grade-aggregation-help dd.example {font-style: italic;}
-#grade-aggregation-help code {font-style: normal;}
+#page-grade-index .grades .header {
+   font-weight: bold;
+   font-size: 0.7em;
+}
 
-#page-grade-index .grades {border-color:#ccc;}
-#page-grade-index .grades td {border-color:#ccc;}
-#page-grade-index .grades .r0 {background-color: #FFF;}
-#page-grade-index .grades .r1 {background-color: #F0F0F0;}
+#grade-aggregation-help dt {
+   font-weight: bold;
+}
 
-td.grade div.overridden {background-color: #DDDDDD;}
+#grade-aggregation-help dd.example {
+   font-style: italic;
+}
 
-.path-grade-report-grader table#user-grades td.cell span.gradepass {background-color: #C2EBBD;}
-.path-grade-report-grader table#user-grades td.cell span.gradefail {background-color: #EBC4BD;}
-.path-grade-report-grader table#user-grades td.clickable {cursor: pointer;}
-.path-grade-report-grader .graderreportoverlay {background-color:#EEEEEE;border:1px solid #ccc; padding:10px;}
+#grade-aggregation-help code {
+   font-style: normal;
+}
 
-.path-grade-edit-tree .moving {background-color: #E8EEF7;}
-.path-grade-edit-tree .gradetreebox {width:95%;padding-bottom:15px;}
+#page-grade-index .grades {
+   border-color: #ccc;
+}
+
+#page-grade-index .grades td {
+   border-color: #ccc;
+}
+
+#page-grade-index .grades .r0 {
+   background-color: #fff;
+}
+
+#page-grade-index .grades .r1 {
+   background-color: #f0f0f0;
+}
+
+td.grade div.overridden {
+   background-color: #dddddd;
+}
+
+.path-grade-report-grader table#user-grades td.cell span.gradepass {
+   background-color: #c2ebbd;
+}
+
+.path-grade-report-grader table#user-grades td.cell span.gradefail {
+   background-color: #ebc4bd;
+}
+
+.path-grade-report-grader table#user-grades td.clickable {
+   cursor: pointer;
+}
+
+.path-grade-report-grader .graderreportoverlay {
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   padding: 10px;
+}
+
+.path-grade-edit-tree .moving {
+   background-color: #e8eef7;
+}
+
+.path-grade-edit-tree .gradetreebox {
+   width: 95%;
+   padding-bottom: 15px;
+}
 
 .path-grade-edit-scale .scale_options,
-#page-admin-grade-edit-scale-index .scale_options {font-size: 0.7em;}
+#page-admin-grade-edit-scale-index .scale_options {
+   font-size: 0.7em;
+}
 
-.gradetreebox {margin:10px auto;width:90%;}
-.gradetreebox table {font-size: 0.8em;border: 1px solid #ccc;}
-.gradetreebox tr.category th.cell.rowspan {border-width:0; border-left:1px solid #ccc;}
-.gradetreebox tr.category th.cell.rowspan:hover {background-color: #EEE;}
-.gradetreebox td.name {border-left: 0px;}
-.gradetreebox td.colspan {border-left: 1px solid #AAA;border-bottom: 1px solid #ccc;border-top: none;background-color: #DDD;}
-.gradetreebox tr .cell.level1 {background-color: #fcecae; width: 5px;}
-.gradetreebox tr .cell.level2 {background-color: #80729d; width: 5px;}
-.gradetreebox tr .cell.level3 {background-color: #dae4bd; width: 5px;}
-.gradetreebox tr .cell.level4 {background-color: #cccccc; width: 5px;}
-.gradetreebox tr .cell.level5 {background-color: #ffcccc; width: 5px;}
+.gradetreebox {
+   margin: 10px auto;
+   width: 90%;
+}
+
+.gradetreebox table {
+   font-size: 0.8em;
+   border: 1px solid #ccc;
+}
+
+.gradetreebox tr.category th.cell.rowspan {
+   border-width: 0;
+   border-left: 1px solid #ccc;
+}
+
+.gradetreebox tr.category th.cell.rowspan: hover {
+   background-color: #eee;
+}
+
+.gradetreebox td.name {
+   border-left: 0px;
+}
+
+.gradetreebox td.colspan {
+   border-left: 1px solid #aaa;
+   border-bottom: 1px solid #ccc;
+   border-top: none;
+   background-color: #ddd;
+}
+
+.gradetreebox tr .cell.level1 {
+   background-color: #fcecae;
+   width: 5px;
+}
+
+.gradetreebox tr .cell.level2 {
+   background-color: #80729d;
+   width: 5px;
+}
+
+.gradetreebox tr .cell.level3 {
+   background-color: #dae4bd;
+   width: 5px;
+}
+
+.gradetreebox tr .cell.level4 {
+   background-color: #cccccc;
+   width: 5px;
+}
+
+.gradetreebox tr .cell.level5 {
+   background-color: #ffcccc;
+   width: 5px;
+}
+
+.path-grade form#choosepluginreport {
+   margin: 10px;
+}

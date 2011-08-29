@@ -1,7 +1,3 @@
-html, body#tinymce {
-   background-color: #eee;
-}
- 
 body {
    font-family: Arial, Verdana, Helvetica, sans-serif;
    padding: 0;
@@ -9,16 +5,23 @@ body {
 }
 
 #page-content .block .footer input {
-   background-color: #eee;
    border: 1px solid #ccc;
+   margin: 0 2px 2px 4px;
+   padding: 0 2px;
+   cursor: pointer;
+}
+
+#page-content .block .footer input:hover {
+   border-color: #000;
+   background-color: #ccc;
 }
 
 body.lang-vi {
    font-family: Arial, Verdana, Helvetica, sans-serif !important;
 }
 
-form#adminsettings fieldset {
-   background-color: #fff;
+.invisitext {
+   display: none;
 }
 
 /**
@@ -56,6 +59,18 @@ a:hover {
 
 .homelink a:hover {
    border: 1px solid #ccc;
+}
+
+#page-header #logo a.logo {
+   float: left;
+   display: block;
+   border: none;
+   margin: 25px 0 0 10px;
+   padding: 0;
+}  
+
+#page-header #logo a.logo:hover {
+   background-position: 0 -29px;
 }
 
 /**
@@ -982,6 +997,18 @@ table#tag-management-list {
    margin: 4px 10px 0 0;
 }
 
+.navbar .navbutton .singlebutton input {
+   border: 1px solid #aaa;
+   padding: 0 5px;
+   cursor: pointer;
+}
+
+.navbar .navbutton .singlebutton input:hover {
+   border-color: #000;
+   background-color: #ccc;
+}
+
+
 .navbar, .navbar a, .navbar a:link, navbar a:visited {
    color: #000;
    text-decoration: none;
@@ -1099,83 +1126,6 @@ table#tag-management-list {
 }
 
 
-.ie7 .tabtree .tabrow0 li {
-   margin-left: 0;
-}
-
-.ie7 .tabtree .tabrow0 li.first {
-   margin-right: -4px;
-}
-
-.ie7 .tabtree .tabrow0 li.onerow {
-   margin-right: 0;
-}
-
-.ie7 .tabtree .tabrow0 a {
-   display: inline-block;
-   padding: 8px 0 0.35em 13px;
-   line-height: 1.5em;
-}
-
-.ie7 .tabtree .tabrow0 a span {
-   padding: 10px 1em 10px 0;
-}
-
-.ie7 .tabtree .tabrow0 div {
-   top: 2.6em;
-   padding: 0.2em 0;
-}
-
-.ie7 .tabtree .tabrow0 div.empty {
-   margin-right: 0;
-}
-
-.ie7.mod-quiz div.tabtree a span img.iconsmall {
-   margin: 0;
-   vertical-align: baseline;
-   position: relative;
-   top: 2px;
-}
-
-
-.ie6 .tabtree {
-   height: 100%;
-}
-
-.ie6 .tabtree .tabrow0 {
-   padding-top: 10px;
-}
-
-.ie6 .tabtree .tabrow0 li {
-   margin-left: 0;
-}
-
-.ie6 .tabtree .tabrow0 li.first {
-   margin-left: -4px;
-   margin-right: -4px;
-}
-
-.ie6 .tabtree .tabrow0 li.last a {
-   margin-right: 0;
-}
-
-.ie6 .tabtree .tabrow0 li.onerow {
-   margin-right: 0;
-}
-
-.ie6 .tabtree .tabrow0 a {
-   padding: 0 0 0 13px;
-}
-
-.ie6 .tabtree .tabrow0 a span {
-   padding: 12px 1em 4px 0;
-}
-
-.ie6 .tabtree .tabrow0 div {
-   top: 3.5em;
-   padding: 0.2em 0;
-}
-
 /**
  * Comment
  */
@@ -1184,18 +1134,6 @@ table#tag-management-list {
    border: 1px solid gray;
 }
 
-
-.ie6 .que .info {
-   display: inline;
-}
-
-.ie6.course-view li.activity {
-   height: 0;
-}
-
-.ie6 #help_icon_tooltip .yui-tt-shadow-visible {
-   background-color: transparent;
-}
 
 /*
  * Backup CSS

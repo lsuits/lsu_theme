@@ -38,11 +38,12 @@ echo $OUTPUT->doctype() ?>
 <?php if ($hasheading || $hasnavbar) { ?>
     <div id="page-header">
         <?php if ($hasheading) { ?>
-         <div id="logo">
-         </div>
-            <?php if ($hascustommenu) { ?>
-            <div id="custommenu"><?php echo $OUTPUT->login_info(); echo $custommenu; ?></div>
-            <?php } ?>
+        <div id="logo">
+           <a class="logo" href="<?php echo $CFG->wwwroot ?>"><span class="invisitext">Moodle Home</span></a>
+        </div>
+        <?php if ($hascustommenu) { ?>
+        <div id="custommenu"><?php echo $OUTPUT->login_info(); echo $custommenu; ?></div>
+        <?php } ?>
         <h1 class="headermain"><?php echo $PAGE->heading ?></h1>
         </div><?php } ?>
         <?php if ($hasnavbar) { ?>

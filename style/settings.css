@@ -1,3 +1,12 @@
+html,
+body,
+body#tinymce,
+#page-content .block .footer input,
+.navbar .navbutton .singlebutton input,
+form#adminsettings fieldset {
+   background-color: [[setting:body_color]];
+}
+
 a {
 	color:[[setting:linkcolor]];
 }
@@ -8,6 +17,12 @@ a:hover {
 
 #page-header{
         background:url([[setting:header_background_image]]) [[setting:header_bgcolor]] 10px 25px no-repeat;
+}
+
+#page-header #logo a.logo {
+        background:url([[setting:header_logo]]) [[setting:header_bgcolor]] 0 0 no-repeat;
+        width: [[setting:header_logo_width]]px;
+        height: [[setting:header_logo_height]]px;
 }
 
 #page-content #region-main-box {
@@ -70,6 +85,11 @@ a:hover {
 /** Stabalise IE6 behaviour on the report layout **/
 .ie6.pagelayout-report #report-region-wrap {
         width:[[setting:regionwidth]];
+}
+
+.path-course-view .weeks .current div.content,
+.path-course-view .topics .current div.content {
+   background: [[setting:current_course_section]] !important;
 }
 
 

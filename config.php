@@ -18,6 +18,7 @@ $THEME->sheets = array(
     'modules',
     'question',
     'css3',      /** Sets up CSS 3 + browser specific styles **/
+    'ie',      /** Fixes various IE issues **/
     'settings'
 );
 

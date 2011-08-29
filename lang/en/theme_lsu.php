@@ -53,6 +53,8 @@ $string['choosereadme'] = '
 	</div>
 </div>';
 
+$string['body_color'] = 'Body Background Color';
+$string['body_color_desc'] = 'This sets the background color for the body of this theme.';
 $string['linkcolor'] = 'Link color';
 $string['linkcolordesc'] = 'This sets the link color for the theme.';
 $string['hovercolor'] = 'Link hover color';
@@ -64,9 +66,15 @@ $string['tagline'] = 'Tagline';
 $string['taglinedesc'] = 'A short tagline to be displayed under the site name on the front page.<br /><em>(Will not be displayed with logo.)</em>';
 $string['logo'] = 'Logo';
 $string['logodesc'] = 'Enter the URL to an image to use as the logo for this site. Should be http://www.yoursite.com/path/to/logo.png';
+$string['logo_width'] = 'Logo Width';
+$string['logowidthdesc'] = 'Enter the width of your logo in pixels. It should be something like 210';
+$string['logo_height'] = 'Logo Height';
+$string['logoheightdesc'] = 'Enter the height of your logo in pixels. It should be something like 29';
 $string['regionwidth'] = 'Column width';
 $string['regionwidthdesc'] = 'This sets the width of the two block regions that form the left and right columns.';
 $string['background_image'] = 'Background Image';
 $string['background_image_desc'] = 'Enter the URL to a tileable image in place of a site logo.';
 $string['header_bgcolor'] = 'Header Background Color';
 $string['header_bgcolor_desc'] = 'This sets the Background Color for the header area beneath the logo.';
+$string['current_course_section'] = 'Current Section Backgroudn Color';
+$string['current_course_section_desc'] = 'This sets the Background Color for the current section within a course.';
