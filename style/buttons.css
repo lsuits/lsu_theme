@@ -1,38 +1,33 @@
 input[type="submit"], button[type="submit"], input[type="button"] {
-   background-color: #ffffff;
-   padding: 1px 3px;
+   background-color: #c4bc83;
+   background-image: url([[pix:theme|input_button_top]]),
+                     url([[pix:theme|input_button_lower]]);
+   background-position: top, bottom;
+   background-repeat: repeat-x, repeat-x;
+   padding: 1px 5px;
    letter-spacing: 1px;
    border: 1px solid #461d7c;
-   color: #461d7c;
+   color: #000000;
    font-weight: bold;
-   border-radius: 3px;
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;
-   -webkit-appearance: none;
-   -moz-appearance: none;
 }
 
 input[type="submit"]:hover, button[type="submit"]:hover, input[type="button"]:hover {
-   color: #000;
-   background-color: #fcecae;
+   color: #461d7c;
+   background: #fff;
    cursor: pointer;
 }
 
 .region-content div div div input[type="submit"], .region-content div div div button[type="submit"], .region-content div div div input[type="button"] {
-   background-color: #ddd;
 }
 
 .region-content input[type="submit"]:hover, .region-content button[type="submit"]:hover, .region-content input[type="button"]:hover {
-   background-color: #fcecae;
+   background-color: #ffffff;
    cursor: pointer;
 }
 
 select {
    background-color: #ffffff;
    border: 1px solid #461d7c;
-   border-radius: 3px;
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;
 }
 
 input[type="text"] {
@@ -41,11 +36,6 @@ input[type="text"] {
    letter-spacing: 1px;
    border: 1px solid #461d7c;
    color: #000000;
-   border-radius: 3px;
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;
-   -webkit-appearance: none;
-   -moz-appearance: none;
 }
 
 
@@ -55,18 +45,11 @@ input[type="checkbox"] {
    width: 12px;
    height: 12px;
    border: 1px solid #461d7c;
-   border-radius: 3px;
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;
-   -webkit-appearance: none;
-   -moz-appearance: none;
 }
 
 input[type="checkbox"]:checked {
    background-color: #461d7c;
    border: 3px double #fdd023;
-   -webkit-appearance: none;
-   -moz-appearance: none;
 }
 
 input[type="radio"] {
@@ -75,18 +58,11 @@ input[type="radio"] {
    width: 12px;
    height: 12px;
    border: 1px solid #461d7c;
-   border-radius: 6px;
-   -moz-border-radius: 6px;
-   -webkit-border-radius: 6px;
-   -webkit-appearance: none;
-   -moz-appearance: none;
 }
 
 input[type="radio"]:checked {
    background-color: #461d7c;
    border: 3px double #fdd023;
-   -webkit-appearance: none;
-   -moz-appearance: none;
 }
 
 .gecko input[type="submit"] {
@@ -95,7 +71,6 @@ input[type="radio"]:checked {
 }
 
 .block button[type="submit"], .block input[type="submit"], .block input[type="text"] {
-   background-color: #ddd;
 }
 
 .block input[type="text"]#adminsearchquery {
@@ -115,6 +90,10 @@ input[type="radio"]:checked {
    -moz-border-radius: 5px;
    -webkit-border-radius: 5px;
    -webkit-appearance: none;
+   -moz-box-shadow:inset 0 0 2px #666;
+   -webkit-box-shadow:inset 0 0 2px #666;
+   box-shadow:inset 0 0 2px #666;
+
 }
 
 .gecko .navbar .navbutton .singlebutton input[type="submit"] {
