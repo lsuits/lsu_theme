@@ -322,7 +322,7 @@ div.resourceworkaround {
 .loginbox,
 .loginbox.twocolumns .loginpanel,
 .loginbox .subcontent {
-   border-color: #DDDDDD;
+   border-color: #cccccc;
 }
 
 .loginbox .guestsub,
@@ -349,7 +349,7 @@ div.resourceworkaround {
 }
 
 .logtable .r1 {
-   background-color: #EEEEEE;
+   background-color: #eeeeee;
 }
 
 /**
@@ -362,7 +362,7 @@ div.resourceworkaround {
 }
 
 .blog_entry.blogdraft .content {
-   background-color: #EEEEEE;
+   background-color: #eeeeee;
 }
 
 
@@ -384,7 +384,7 @@ div.resourceworkaround {
  */
 
 .mceContentBody {
-   background-color: #FAFAFA;
+   background-color: #fafafa;
    color: #000;
 }
 
@@ -641,7 +641,7 @@ form.popupform label {
 }
 
 .userinfobox {
-   border-color: #DDDDDD;
+   border-color: #cccccc;
 }
 
 .userinfobox .links {
@@ -658,7 +658,7 @@ form.popupform label {
 }
 
 .groupinfobox {
-   border-color: #DDDDDD;
+   border-color: #cccccc;
    width: 60%;
    margin-left: 20%;
    margin-right: 20%;
@@ -678,7 +678,7 @@ form.popupform label {
 }
 
 #page-user-profile .remoteuserinfo, #page-user-view .remoteuserinfo {
-   background-color: #D2EBFF;
+   background-color: #d2ebff;
    text-align: center;
    padding: 3px;
 }
@@ -699,7 +699,7 @@ form.popupform label {
 }
 
 .mform fieldset {
-   border: 1px solid #DDDDDD;
+   border: 1px solid #cccccc;
    padding: 0;
    margin: 0.7em 0;
    width: 100%;
@@ -807,11 +807,11 @@ form.popupform label {
  */
 
 .notepost {
-   background-color: #EEE;
+   background-color: #eee;
 }
 
 .notepost .header {
-   background: #DDD;
+   background: #ccc;
    padding: 5px;
 }
 
@@ -877,7 +877,7 @@ form.popupform label {
 #help pre,
 #help code {
    background: #eee;
-   border: 1px dashed #ddd;
+   border: 1px dashed #ccc;
    padding: 3px;
 }
 
@@ -1006,7 +1006,7 @@ table#tag-management-list {
 }
 
 .mform fieldset {
-   border-color: #DDD;
+   border-color: #ccc;
 }
 
 /**
@@ -1122,13 +1122,13 @@ table#tag-management-list {
    border: 1px solid #aaa;
    margin: 10px;
    clear: both;
-   background-color: #EEE;
+   background-color: #eee;
 }
 
 .path-backup .mform .grouped_settings.section_level .grouped_settings.activity_level {
    background-color: #fff;
    border: 1px solid #fff;
-   border-top-color: #DDD;
+   border-top-color: #ccc;
 }
 
 .path-backup .mform .grouped_settings.section_level .include_setting {
@@ -1340,7 +1340,7 @@ table#tag-management-list {
 .userenrolment td {
    border: 1px solid #E9E9E9;
    border-top-color: #F6F6F6;
-   border-right-color: #EEE;
+   border-right-color: #eee;
    border-left-color: #F3F3F3;
 }
 
@@ -1371,8 +1371,8 @@ table#tag-management-list {
 }
 
 .userenrolment .col_role .addrole {
-   background-color: #DDD;
-   border: 1px outset #EEE;
+   background-color: #ccc;
+   border: 1px outset #eee;
    -moz-border-radius: 5px;
 }
 
@@ -1390,8 +1390,8 @@ table#tag-management-list {
 }
 
 .userenrolment .col_group .addgroup {
-   background-color: #DDD;
-   border: 1px outset #EEE;
+   background-color: #ccc;
+   border: 1px outset #eee;
    -moz-border-radius: 5px;
 }
 
@@ -1400,8 +1400,8 @@ table#tag-management-list {
 }
 
 .userenrolment .col_enrol .enrolment {
-   border: 1px outset #E6E6E6;
-   background-color: #EEE;
+   border: 1px outset #eee;
+   background-color: #eee;
    line-height: 10px;
    font-size: 10px;
    -moz-border-radius: 5px;
