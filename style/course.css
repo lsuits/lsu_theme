@@ -110,6 +110,10 @@
    margin: 0;
 }
 
+.editing .course-content ul li.section .content ul.section {
+   margin-left: 70px;
+}
+
 /** Course **/
 .coursebox {
    border:1px solid #DDD;
@@ -172,25 +176,19 @@
    font-size:0.9em;
 }
 
-.course-content ul.weeks li.section .content .togglecompletion {
+.course-content ul li.section .content .togglecompletion,
+.course-content ul li.section .content .autocompletion {
    margin-right: 30px;
    padding: 5px;
 }
 
-.course-content ul.weeks li.section .content .autocompletion {
-   margin-right: 30px;
+.course-content ul li.section .content div.horizontal,
+.editing .course-content ul li.section .content .togglecompletion,
+.editing .course-content ul li.section .content .autocompletion {
+   margin-right: 70px;
    padding: 5px;
 }
 
-.course-content ul.topics li.section .content .togglecompletion {
-   margin-right: 30px;
-   padding: 5px;
-}
-
-.course-content ul.topics li.section .content .autocompletion {
-   margin-right: 30px;
-   padding: 5px;
-}
 
 .path-course-view .availabilityinfo {
    font-size:0.85em;
@@ -480,4 +478,38 @@
 
 #page-course-publish-backup .sharecoursecontinue  {
    text-align: center;
+}
+
+.glossarydisplay .entrybox {
+   background-color: #fff;
+   padding: 10px;
+}
+
+
+.glossarydisplay .entrybox table.glossarypost,
+.glossarydisplay .entrybox table.glossarycategoryheader h2 {
+   background-color: #f4f4f4;
+   padding: 10px;
+}
+
+
+.glossarydisplay .entrybox table.glossarycategoryheader {
+   margin-top: 10px;
+   border: 1px solid #cecece;
+   border-bottom: none;
+}
+
+
+#page-mod-glossary-print #page-content {
+   background-color: #fff;
+}
+
+
+.left.side>div:first-of-type {
+   margin-bottom: 12px;
+}
+
+
+.right.side>div:first-of-type {
+   margin-top: 12px;
 }

@@ -4,18 +4,6 @@ body {
    background-color: #eee;
 }
 
-#page-content .block .footer input {
-   border: 1px solid #ccc;
-   margin: 0 2px 2px 4px;
-   padding: 0 2px;
-   cursor: pointer;
-}
-
-#page-content .block .footer input:hover {
-   border-color: #000;
-   background-color: #ccc;
-}
-
 body.lang-vi {
    font-family: Arial, Verdana, Helvetica, sans-serif !important;
 }
@@ -707,7 +695,7 @@ form.popupform label {
  */
 
 .mform {
-   
+  padding-right: 25px; 
 }
 
 .mform fieldset {
@@ -735,6 +723,10 @@ form.popupform label {
 .mform .fpassword .unmask input {
    margin-left: 5px;
    margin-right: 3px;
+}
+
+.mform .fitem .filemanager-toolbar {
+   margin-bottom: 5px;
 }
 
 #page-admin-register .mform .fsubmit {
@@ -957,7 +949,7 @@ table#tag-management-list {
    margin: 0;
    height: 30px;
    border: none;
-   background: #fff url([[pix:theme|navbar]]) 0 -60px repeat-x;
+   background: transparent url([[pix:theme|navbar]]) 0 -60px repeat-x;
 }
 
 .navbar .arrow, .navbar .sep {
@@ -996,18 +988,6 @@ table#tag-management-list {
 .navbar .navbutton {
    margin: 4px 10px 0 0;
 }
-
-.navbar .navbutton .singlebutton input {
-   border: 1px solid #aaa;
-   padding: 0 5px;
-   cursor: pointer;
-}
-
-.navbar .navbutton .singlebutton input:hover {
-   border-color: #000;
-   background-color: #ccc;
-}
-
 
 .navbar, .navbar a, .navbar a:link, navbar a:visited {
    color: #000;
@@ -1228,7 +1208,8 @@ table#tag-management-list {
  */
 
 #custommenu {
-   float: right;
+   position: absolute;
+   right: 0;
    width: auto;
    min-width: 830px;
    max-width; 1130px;

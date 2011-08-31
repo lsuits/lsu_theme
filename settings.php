@@ -51,7 +51,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_lsu/body_color';
     $title = get_string('body_color','theme_lsu');
     $description = get_string('body_color_desc', 'theme_lsu');
-    $default = '#eeeeee';
+    $default = '#dddddd';
     $setting = new admin_setting_configcolourpicker($name, $title, $description, $default);
     $settings->add($setting);
 

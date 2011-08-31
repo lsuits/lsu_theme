@@ -1,0 +1,141 @@
+input[type="submit"], button[type="submit"], input[type="button"] {
+   background-color: #ffffff;
+   padding: 1px 3px;
+   letter-spacing: 1px;
+   border: 1px solid #461d7c;
+   color: #461d7c;
+   font-weight: bold;
+   border-radius: 3px;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+input[type="submit"]:hover, button[type="submit"]:hover, input[type="button"]:hover {
+   color: #000;
+   background-color: #fcecae;
+   cursor: pointer;
+}
+
+.region-content div div div input[type="submit"], .region-content div div div button[type="submit"], .region-content div div div input[type="button"] {
+   background-color: #ddd;
+}
+
+.region-content input[type="submit"]:hover, .region-content button[type="submit"]:hover, .region-content input[type="button"]:hover {
+   background-color: #fcecae;
+   cursor: pointer;
+}
+
+select {
+   background-color: #ffffff;
+   border: 1px solid #461d7c;
+   border-radius: 3px;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+}
+
+input[type="text"] {
+   background-color: #ffffff;
+   padding: 1px 5px;
+   letter-spacing: 1px;
+   border: 1px solid #461d7c;
+   color: #000000;
+   border-radius: 3px;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+
+input[type="checkbox"] {
+   margin: 0 10px 0 0;
+   background-color: #ffffff;
+   width: 12px;
+   height: 12px;
+   border: 1px solid #461d7c;
+   border-radius: 3px;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+input[type="checkbox"]:checked {
+   background-color: #461d7c;
+   border: 3px double #fdd023;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+input[type="radio"] {
+   margin: 0 10px 0 0;
+   background-color: #ffffff;
+   width: 12px;
+   height: 12px;
+   border: 1px solid #461d7c;
+   border-radius: 6px;
+   -moz-border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+input[type="radio"]:checked {
+   background-color: #461d7c;
+   border: 3px double #fdd023;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+.gecko input[type="submit"] {
+   padding: 0px 1px;
+   letter-spacing: 0px;
+}
+
+.block button[type="submit"], .block input[type="submit"], .block input[type="text"] {
+   background-color: #ddd;
+}
+
+.block input[type="text"]#adminsearchquery {
+   width: 90px;
+   margin-right: 10px;
+}
+
+.navbar .navbutton .singlebutton input[type="submit"] {
+   background: #cccccc url([[pix:theme|edit_switch]]) left top no-repeat;
+   padding: 3px 10px;
+   margin-top: -3px;
+   padding-left: 50px;
+   letter-spacing: 1px;
+   border: 1px solid #461d7c;
+   color: #2e1352;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -webkit-appearance: none;
+}
+
+.gecko .navbar .navbutton .singlebutton input[type="submit"] {
+   padding-top: 2px;
+   padding-bottom: 2px;
+}
+
+.navbar .navbutton .singlebutton input[type="submit"]:hover {
+   background-position: left center; 
+   color: #461d7c;
+}
+
+.editing .navbar .navbutton .singlebutton input[type="submit"] {
+   background-color: #461d7c;
+   background-position: right 0;
+   padding-right: 50px;
+   padding-left: 10px;
+   color: #ffffff;
+}
+
+.editing .navbar .navbutton .singlebutton input[type="submit"]:hover {
+   background-position: right center; 
+   color: #eeeeee;
+}

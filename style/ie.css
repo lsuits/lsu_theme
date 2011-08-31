@@ -19,9 +19,17 @@
    border-color: #ccc;
 }
 
+.ie input[type="checkbox"] {
+    border: none;
+}
 
+.ie input[type="checkbox"]:checked {
+    border: none;
+}
 
-
+.ie .region-content .fcontainer .fitem .fsubmit {
+    margin-left: 231px;
+}
 
 /***************************************
  ***************** IE9 *****************

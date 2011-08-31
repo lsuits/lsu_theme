@@ -1,9 +1,6 @@
 html,
 body,
-body#tinymce,
-#page-content .block .footer input,
-.navbar .navbutton .singlebutton input,
-form#adminsettings fieldset {
+body#tinymce {
    background-color: [[setting:body_color]];
 }
 

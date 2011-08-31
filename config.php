@@ -17,6 +17,7 @@ $THEME->sheets = array(
     'message',
     'modules',
     'question',
+    'buttons',   //** Sets up inputs and buttons **/
     'css3',      /** Sets up CSS 3 + browser specific styles **/
     'ie',      /** Fixes various IE issues **/
     'settings'
