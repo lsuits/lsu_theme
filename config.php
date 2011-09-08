@@ -66,7 +66,7 @@ $THEME->layouts = array(
     ),
     'admin' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'site-post'),
+        'regions' => array('side-pre', 'side-post'),
         'defaultregion' => 'side-post',
     ),
     'mydashboard' => array(
