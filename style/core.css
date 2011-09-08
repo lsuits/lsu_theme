@@ -113,7 +113,7 @@ div.generalbox {
 }
 
 div.header {
-   background: transparent url([[pix:theme|navbar]]) 0 -120px repeat-x;
+   background: transparent url([[pix:theme|navbar]]) 0 -150px repeat-x;
    padding: 0;
    margin; 0;
 }
@@ -924,17 +924,22 @@ table#tag-management-list {
 #page-header .headermain {
    font-size: 1em;
    float: none;
+   position: absolute;
    margin: 42px 0 0 225px;
    color: #fdd023;
    text-align: left;
 }
 
-#page-header .headermain h1 {
+#page-header h1 {
    margin: 0;
    padding: 0;
 }
 
+#page-grade-report-grader-index #page-header .headermain {
+}
+
 .pagelayout-frontpage #page-header, #page-header {
+   padding: 0;
    border: none;
    height: 60px;
    margin: 0;
@@ -947,7 +952,7 @@ table#tag-management-list {
 
 .navbar {
    margin: 0;
-   height: 30px;
+   height: 29px;
    border: none;
    background: transparent url([[pix:theme|navbar]]) 0 -60px repeat-x;
 }
@@ -958,33 +963,80 @@ table#tag-management-list {
 
 .navbar .breadcrumb {
    width: 700px;
-   height: 30px;
+   height: 29px;
    padding: 0;
 }
 
 .navbar .breadcrumb li {
    display: inline-block;
    margin-left: -20px;
-   height: 30px;
+   height: 29px;
+   padding: 0;
+   background: transparent;
+}
+
+.navbar .breadcrumb li span {
+   margin: 0;
+   width: 100%;
+   height: 29px;
+   background: transparent url([[pix:theme|navbar]]) 0 0 no-repeat;
+   padding: 5px 27px 5px 20px;
+}
+
+.navbar .breadcrumb li a {
+   display: block;
+   width: 100%;
+   height: 29px;
    padding: 5px 27px 0 20px;
    background: transparent url([[pix:theme|navbar]]) 0 0 no-repeat;
 }
 
+.navbar .breadcrumb li:first-child a {
+   background-position: 0 -60px;
+   margin-left: 0;
+   padding-left: 30px;
+}
 
-.navbar .breadcrumb li:not(:last-of-type) {
+.navbar .breadcrumb li a:hover {
+   background-position: 0 -90px;
+}
+
+.navbar .breadcrumb li:not(:last-of-type) a:hover {
    background-position: 0 -30px;
 }
 
-.navbar .breadcrumb li:first-child {
-   background-position: 0 -90px;
-   margin-left: 0;
-   padding-left: 15px;
+.navbar .breadcrumb li:last-child a:hover {
+   background-position: 0 -120px;
 }
 
-.navbar .breadcrumb li:only-child {
+/*
+
+.navbar .breadcrumb li a:not(:last-of-type):hover {
+   background-position: 0 -30px;
+}
+
+.navbar .breadcrumb li a:first-child {
+   background-position: 0 -60px;
+   margin-left: 0;
+   padding-left: 30px;
+}
+
+.navbar .breadcrumb li a:hover {
+   background-position: 0 -90px;
+}
+
+.navbar .breadcrumb li a:only-child {
    background-position: 0 -60px;
 }
 
+.navbar .breadcrumb li span:only-child {
+   background-position: 0 -60px;
+}
+
+.navbar .breadcrumb li a:only-child:hover {
+   background-position: 0 -60px;
+}
+*/
 .navbar .navbutton {
    margin: 4px 10px 0 0;
 }

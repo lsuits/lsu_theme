@@ -20,7 +20,8 @@ $THEME->sheets = array(
     'buttons',   //** Sets up inputs and buttons **/
     'css3',      /** Sets up CSS 3 + browser specific styles **/
     'ie',      /** Fixes various IE issues **/
-    'settings'
+    'settings',
+    'print'
 );
 
 $THEME->parents_exclude_sheets = array(
@@ -65,8 +66,8 @@ $THEME->layouts = array(
     ),
     'admin' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre'),
-        'defaultregion' => 'side-pre',
+        'regions' => array('side-pre', 'site-post'),
+        'defaultregion' => 'side-post',
     ),
     'mydashboard' => array(
         'file' => 'general.php',
@@ -116,30 +117,15 @@ $THEME->layouts = array(
     'print' => array(
         'file' => 'general.php',
         'regions' => array(),
-        'options' => array('nofooter'=>true, 'nonavbar'=>false, 'noblocks'=>true),
+        'options' => array('nofooter'=>true, 'nonavbar'=>true, 'noblocks'=>true),
     ),
     // The pagelayout used for reports
     'report' => array(
         'file' => 'report.php',
         'regions' => array('side-pre'),
         'defaultregion' => 'side-pre',
+        'options' => array('nofooter'=>false, 'nonavbar'=>false, 'noblocks'=>false),
     ),
 );
-
-
-/*
-//////////////////////////////////////////////////////////
-//              To be used in the gradebook             //
-//          to add things like quick edit links         //
-//////////////////////////////////////////////////////////
-
-$THEME->layouts = array(
-    'gradebook' => array(
-        'file' => 'lsugradebook.php',
-        'regions' => array('side-pre', 'side-post'),
-        'defaultregion' => 'side-post',
-    ),
-);
-*/
 
 $THEME->csspostprocess = 'lsu_process_css';

@@ -35,6 +35,10 @@
  ***************** IE9 *****************
  **************************************/
 
+.ie9 .block, .ie9 .path-calendar .maincalendar, .ie9 .course-content ul.topics li.section, .ie9 .course-content ul.weeks li.section, .ie9 .mform fieldset, .ie9 div#resourceintro.mod_introbox, .ie9 .headingblock, .ie9 .path-grade div.gradeparent {
+   box-shadow: 0 0 20px #bbbbbb;
+}
+
 
 
 
@@ -44,6 +48,9 @@
  ***************** IE8 *****************
  **************************************/
 
+.ie8 .block, .ie8 .path-calendar .maincalendar, .ie8 .course-content ul.topics li.section, .ie8 .course-content ul.weeks li.section, .ie8 .mform fieldset, .ie8 div#resourceintro.mod_introbox, .ie8 .headingblock, .ie8 .path-grade div.gradeparent {
+   box-shadow: 0 0 20px #bbbbbb;
+}
 
 
 
