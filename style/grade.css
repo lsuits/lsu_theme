@@ -156,3 +156,13 @@ td.grade div.overridden {
    border: none;
    box-shadow: none !important;
 }
+
+.path-grade fieldset.clearfix div.clearfix {
+   padding: 10px;
+   width: auto;
+   text-align: left;
+}
+
+.path-grade div.region-content>form>div {
+   margin-top: -20px;
+}

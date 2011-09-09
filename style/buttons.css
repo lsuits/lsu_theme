@@ -47,8 +47,9 @@ select option {
    border-radius: 3px;
 }
 
-.gecko select[multiple], .ie9 select[multiple], .ie8 select[multiple], .ie7 select[multiple], .ie6 select[multiple] {
+select[multiple], .gecko select[multiple], .ie9 select[multiple], .ie8 select[multiple], .ie7 select[multiple], .ie6 select[multiple] {
    background: #ffffff;
+   width: 250px;
 }
 
 /*

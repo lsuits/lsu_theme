@@ -176,6 +176,7 @@ table.minicalendar {
 }
 
 .course-content ul.topics li.section, .course-content ul.weeks li.section, .mform fieldset, .headingblock {
+   text-align: left;
    border-width: 10px;
    background-color: transparent;
    -moz-border-image: url([[pix:theme|borders]]) 10 10 stretch;
@@ -279,4 +280,8 @@ input[type="radio"]:checked {
    -webkit-border-image: url([[pix:theme|borders]]) 10 10 stretch;
    -o-border-image: url([[pix:theme|borders]]) 10 10 stretch;
    border-image: url([[pix:theme|borders]]) 10 10 stretch;
+}
+
+.path-grade ul.tabrow1 {
+   box-shadow: 0 0 15px #aaa;
 }

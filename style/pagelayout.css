@@ -72,7 +72,7 @@ body {margin:auto 0px;width:auto;}
 .pagelayout-report #page-header {float:left;width:100%;}
 .pagelayout-report #page-content {clear:both;float:left;overflow:hidden;position:relative;width:100%;min-width:845px;}
 .pagelayout-report #report-main-content {float:left;width:100%;}
-.pagelayout-report #report-main-content .region-content {margin-left:200px;overflow:hidden;padding:0; padding-right: 10px;}
+.pagelayout-report #report-main-content .region-content {margin-left:200px;overflow:hidden;padding:0;}
 .pagelayout-report #report-main-content .region-content table {background-color:#FFF;}
 .pagelayout-report #report-region-wrap {width:0;float:right;position:relative;left:-100%;}
 .pagelayout-report #report-region-pre {width:200px;}

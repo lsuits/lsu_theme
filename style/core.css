@@ -375,8 +375,12 @@ div.resourceworkaround {
 }
 
 #page-my-index .coursebox:hover {
-   background-color: #ccc;
+   background-color: #eee;
    border-color: #aaa;
+}
+
+#page-my-index .unreadposts {
+   color: #ff0000;
 }
 
 /**
@@ -745,6 +749,8 @@ form.popupform label {
 .mform fieldset div.advancedbutton {
    padding: 5px 20px 0 0;
    margin: 0;
+   margin-top: -5px;
+   min-height: 15px;
    background-color: #fff;
 }
 
@@ -983,6 +989,11 @@ table#tag-management-list {
    padding: 5px 27px 5px 20px;
 }
 
+
+.gecko .navbar .breadcrumb li span {
+   padding: 4px 27px 4px 20px;
+}
+
 .navbar .breadcrumb li a {
    display: block;
    width: 100%;
@@ -998,15 +1009,22 @@ table#tag-management-list {
 }
 
 .navbar .breadcrumb li a:hover {
-   background-position: 0 -90px;
+   background-position: 0 -120px;
 }
 
+/*
 .navbar .breadcrumb li:not(:last-of-type) a:hover {
    background-position: 0 -30px;
 }
 
+
 .navbar .breadcrumb li:last-child a:hover {
    background-position: 0 -120px;
+}
+*/
+
+.navbar .breadcrumb li:first-child a:hover {
+   background-position: 0 -90px;
 }
 
 /*
@@ -1037,6 +1055,7 @@ table#tag-management-list {
    background-position: 0 -60px;
 }
 */
+
 .navbar .navbutton {
    margin: 4px 10px 0 0;
 }
@@ -1064,6 +1083,10 @@ table#tag-management-list {
 /**
  * Tabs
  */
+
+.tabtree {
+   margin-bottom: 30px;
+}
 
 .tabtree ul {
    text-align: center;
@@ -1116,9 +1139,10 @@ table#tag-management-list {
 .tabtree .tabrow0 ul,
 .tabtree .tabrow0 div {
    font-weight: normal;
-   background-image: url([[pix:theme|tab/tabrow1]]);
-   background-position: 0% 50%;
-   border-top: 1px solid #aaa;
+   background-image: url([[pix:theme|navbar]]);
+   background-position: 0 -150px;
+   border: 1px solid #aaa;
+   border-bottom: none;
    padding: 0.25em 0px;
    margin: 0px;
 }
@@ -1140,12 +1164,12 @@ table#tag-management-list {
    background-image: none !important;
 }
 
-
 .tabtree a.nolink,
 .tabtree .here ul a.nolink,
 .tabtree a.nolink:hover,
 .tabtree .here ul a.nolink:hover {
-   color: #888;
+   color: #000;
+   font-weight: bold;
    text-decoration: none;
 }
 
@@ -1154,6 +1178,7 @@ table#tag-management-list {
 .tabtree .here a.nolink:hover,
 .tabtree .here ul .here a.nolink:hover {
    color: black;
+   font-weight: bold;
    text-decoration: none;
 }
 
