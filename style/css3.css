@@ -175,13 +175,17 @@ table.minicalendar {
    border-image: url([[pix:theme|borders]]) 10 10 stretch;
 }
 
-.course-content ul.topics li.section, .course-content ul.weeks li.section, .mform fieldset, div#resourceintro.mod_introbox, .headingblock {
+.course-content ul.topics li.section, .course-content ul.weeks li.section, .mform fieldset, .headingblock {
    border-width: 10px;
    background-color: transparent;
    -moz-border-image: url([[pix:theme|borders]]) 10 10 stretch;
    -webkit-border-image: url([[pix:theme|borders]]) 10 10 stretch;
    -o-border-image: url([[pix:theme|borders]]) 10 10 stretch;
    border-image: url([[pix:theme|borders]]) 10 10 stretch;
+}
+
+div.region-content>div.box {
+   box-shadow: 0 0 15px #bbbbbb;
 }
 
 .block_course_overview div.coursebox {
@@ -266,4 +270,13 @@ input[type="radio"]:checked {
    -moz-box-shadow:inset 0 0 2px #000;
    -webkit-box-shadow:inset 0 0 2px #000;
    box-shadow:inset 0 0 2px #000;
+}
+
+.path-grade div.gradeparent {
+   border-width: 10px;
+   margin: 0;
+   -moz-border-image: url([[pix:theme|borders]]) 10 10 stretch;
+   -webkit-border-image: url([[pix:theme|borders]]) 10 10 stretch;
+   -o-border-image: url([[pix:theme|borders]]) 10 10 stretch;
+   border-image: url([[pix:theme|borders]]) 10 10 stretch;
 }

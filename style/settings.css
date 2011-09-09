@@ -12,6 +12,10 @@ a:hover {
 	color:[[setting:hovercolor]];
 }
 
+div#page, #page-header .navbar .breadcrumb {
+   background-color: [[setting:body_color]];
+}
+
 #page-header{
         background:url([[setting:header_background_image]]) [[setting:header_bgcolor]] 10px 25px no-repeat;
 }

@@ -306,3 +306,7 @@
    bottom: 0;
    position: absolute;
 }
+
+.block_private_files .ygtvchildren {
+   overflow: hidden;
+}
