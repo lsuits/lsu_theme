@@ -25,3 +25,13 @@
 .shortanswer .answer {background-color: #EEE;}
 
 .essay .answerreview {background-color: #EEE;}
+
+#page-question-edit table#categoryquestions thead {background: #eeeeee url([[pix:theme|navbar]]) 0 -150px repeat-x;}
+#page-question-edit h2.main {background: #eeeeee url([[pix:theme|navbar]]) 0 -150px repeat-x; padding: 5px;}
+/*
+#page-question-edit table#categoryquestions thead tr th a img {margin-left: 1.5em; margin-top: -1.1em; display: block;}
+*/
+#page-question-edit div.questionbankwindow {text-align: center; box-shadow: 0 0 15px #bbbbbb; background-color: #fff; padding-bottom: 10px; margin-bottom: 10px;}
+#page-question-edit div.questionbankwindow table#categoryquestions .checkbox {width: 3em !important;}
+#page-question-edit div.questionbankwindow table#categoryquestions .questionname {text-align: left; padding-left: 20px;}
+#page-question-edit div.questionbankwindow #displayoptions, #page-question-edit div.questionbankwindow .no-overflow {text-align: left; padding-left: 10px;}

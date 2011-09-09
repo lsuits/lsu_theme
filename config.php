@@ -122,9 +122,11 @@ $THEME->layouts = array(
     // The pagelayout used for reports
     'report' => array(
         'file' => 'report.php',
-        'regions' => array('side-pre'),
-        'defaultregion' => 'side-pre',
-        'options' => array('nofooter'=>false, 'nonavbar'=>false, 'noblocks'=>false),
+//        'regions' => array('side-pre'),
+//        'defaultregion' => 'side-pre',
+//        'options' => array('nofooter'=>false, 'nonavbar'=>false, 'noblocks'=>false),
+        'regions' => array(),
+        'options' => array('nofooter'=>false, 'nonavbar'=>false, 'noblocks'=>true),
     ),
 );
 

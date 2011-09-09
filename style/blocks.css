@@ -249,6 +249,26 @@
    font-size: 0.9em;
 }
 
+.block_recent_activity li {
+   padding: 0;
+   background-color: #fff;
+   border: 1px solid #ccc;
+}
+
+.block_recent_activity li:nth-child(odd) {
+   background-color: #eee;
+}
+
+.block_recent_activity li div.head {
+   margin: 0 !important;
+   background: transparent url([[pix:theme|navbar]]) 0 -150px repeat-x;
+   padding: 4px;
+}
+
+.block_recent_activity li div.head+div.info {
+   padding: 5px 10px;
+}  
+
 /** RSS Client **/
 .block_rss_client .image {
    text-align: center;

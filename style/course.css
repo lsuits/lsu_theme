@@ -311,7 +311,8 @@
 }
 
 .path-course-view .unread {
-   background: #9EBEFF;
+   background: #fcecae;
+   border: 1px solid #461d7c;
 }
 
 .path-course-view .completionprogress {
