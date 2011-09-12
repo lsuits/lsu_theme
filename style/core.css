@@ -149,7 +149,7 @@ h2.header.outline {
 .errorbox {
    color: #fff;
    border-color: #660000;
-   background-color: #990000;
+   background: #990000 url([[pix:theme|creeper]]) right center no-repeat;
    font-style: italic;
 }
 
