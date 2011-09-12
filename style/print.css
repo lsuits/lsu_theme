@@ -1,0 +1,51 @@
+@media print {
+
+html, body {
+   background-color: #fff;
+}
+/*
+.course-content ul.topics li.section, .course-content ul.weeks li.section, .mform fieldset, .headingblock, .block, .path-calendar .maincalendar, div.region-content>div.box, table, .forumheaderlist {
+   -moz-border-image: none;
+   -webkit-border-image: none;
+   -o-border-image: none;
+   border-image: none;
+   box-shadow: none;
+   -o-box-shadow: none;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   border: 1px solid #666 !important;
+   margin-top: 10px; 
+}
+
+.course-content ul {
+   margin-top: 10px !important;
+   margin-bottom: 10px !important;
+}
+*/
+
+#page-header #logo, #region-pre, #region-post, #page-footer, .navbutton, #custommenu .yui3-menu-horizontal {
+   display: none;
+}
+
+#custommenu {
+   min-width: 0;
+}
+
+#region-main-box, .region-content, #region-main {
+   left: 0 !important;
+   right: 0;
+   margin: 0 auto;
+   width: 99%;
+}
+
+#page-header {
+   background-image: none;
+   height: 3em;
+}
+
+#page-header h1.headermain {
+   margin: .2em 20px;
+   font-size: 2em;
+}
+
+}

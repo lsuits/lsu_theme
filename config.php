@@ -18,8 +18,8 @@ $THEME->sheets = array(
     'modules',
     'question',
     'buttons',   //** Sets up inputs and buttons **/
-    'css3',      /** Sets up CSS 3 + browser specific styles **/
-    'ie',      /** Fixes various IE issues **/
+    'css3',      /** Sets up CSS 3 **/
+    'browsers',      /** Fixes various browser specific issues **/
     'settings',
     'print'
 );

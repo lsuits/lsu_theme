@@ -123,7 +123,7 @@ input[type="radio"]:checked {
 }
 
 .gecko .navbar .navbutton .singlebutton input[type="submit"] {
-   padding-top: 2px;
+   padding-top: 1px;
    padding-bottom: 2px;
 }
 
