@@ -1332,7 +1332,7 @@ table#tag-management-list {
 
 #custommenu .yui3-menu .yui3-menu-label-menuvisible,
 #custommenu .yui3-menu .yui3-menuitem-active {
-   background-color: #ccc;
+   background-color: #666;
    border: none;
    background-image: none;
 }
@@ -1395,6 +1395,7 @@ table#tag-management-list {
 .smartselect .smartselect_submenu {
    -moz-border-radius: 4px;
    -webkit-border-radius: 5px;
+   border-radius: 5px;
 }
 
 /**
