@@ -185,7 +185,7 @@ table.minicalendar {
    border-image: url([[pix:theme|borders]]) 10 10 stretch;
 }
 
-div.region-content>div.box {
+div.region-content>div.box, div.userprofile {
    box-shadow: 0 0 15px #bbbbbb;
 }
 
