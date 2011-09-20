@@ -327,6 +327,6 @@
    position: absolute;
 }
 
-.block_private_files .ygtvchildren {
+.block_private_files .ygtvchildren, .block_navigation, .block_settings ul li {
    overflow: hidden;
 }
