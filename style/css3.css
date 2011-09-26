@@ -285,3 +285,7 @@ input[type="radio"]:checked {
 .path-grade ul.tabrow1 {
    box-shadow: 0 0 15px #aaa;
 }
+
+#page-admin-index div.box.copyright {
+   box-shadow: none;
+}
