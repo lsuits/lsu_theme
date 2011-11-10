@@ -289,3 +289,22 @@ input[type="radio"]:checked {
 #page-admin-index div.box.copyright {
    box-shadow: none;
 }
+
+#page-mod-quiz-edit div.questioncontainer div.content {
+  border-top-left-radius: 0 !important; 
+  border-bottom-left-radius: 0 !important;
+  -moz-border-radius-topleft: 0 !important;
+  -moz-border-radius-bottomleft: 0 !important;
+  -webkit-border-top-left-radius: 0 !important;
+  -webkit-border-bottom-left-radius: 0 !important;
+}
+
+
+#page-mod-quiz-edit div.questioncontainer div.pagecontent {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  -moz-border-radius-topleft: 0 !important;
+  -moz-border-radius-bottomleft: 0 !important;
+  -webkit-border-top-left-radius: 0 !important;
+  -webkit-border-bottom-left-radius: 0 !important;
+}

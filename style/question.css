@@ -35,3 +35,8 @@
 #page-question-edit div.questionbankwindow table#categoryquestions .checkbox {width: 3em !important;}
 #page-question-edit div.questionbankwindow table#categoryquestions .questionname {text-align: left; padding-left: 20px;}
 #page-question-edit div.questionbankwindow #displayoptions, #page-question-edit div.questionbankwindow .no-overflow {text-align: left; padding-left: 10px;}
+
+#page-mod-quiz-edit div.questionbankwindow {background-color: #fff;} 
+#page-mod-quiz-edit div.questionbankwindow div.header {background-color: #461d7c; padding: 0;}
+#page-mod-quiz-edit div.questioncontainer div.points {background-color: #ccc !important;}
+#page-mod-quiz-edit div.questionbank {background-color: #ccc;} 

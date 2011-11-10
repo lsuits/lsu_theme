@@ -109,6 +109,12 @@ td.grade div.overridden {
    width: 5px;
 }
 
+.gradetreebox tr th.cell.level2, .gradetreebox tr th.cell.level3, .gradetreebox tr th.cell.level4, .gradetreebox tr th.cell.level5 {
+   width: 1px !important;
+   padding: 0;
+   min-width: 0;
+} 
+
 .gradetreebox tr .cell.level3 {
    background-color: #dae4bd;
    width: 5px;
