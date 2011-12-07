@@ -201,8 +201,8 @@
 }
 
 .path-course-view .dimmed_text img {
-   opacity:0.3;
-   filter: alpha(opacity='30');
+   opacity:0.9;
+   filter: alpha(opacity='90');
 }
 
 .path-course-view .section {
