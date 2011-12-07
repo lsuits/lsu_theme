@@ -144,3 +144,39 @@ input[type="radio"]:checked {
    background-position: right center; 
    color: #eeeeee;
 }
+
+#page-mod-data-view .navbar .navbutton table {
+   margin-top: -9px;
+}
+
+#page-mod-data-view .navbar .navbutton input[type="submit"] {
+   background: #cccccc url([[pix:theme|edit_switch]]) left top no-repeat;
+   padding: 3px 10px;
+   margin-top: 0;
+   padding-left: 50px;
+   border: 1px solid #461d7c;
+   color: #2e1352;
+}
+
+#page-mod-data-view .gecko .navbar .navbutton input[type="submit"] {
+   padding-top: 1px;
+   padding-bottom: 2px;
+}
+
+#page-mod-data-view .navbar .navbutton input[type="submit"]:hover {
+   background-position: left center;
+   color: #000000;
+}
+
+#page-mod-data-view .editing .navbar .navbutton input[type="submit"] {
+   background-color: #461d7c;
+   background-position: right 0;
+   padding-right: 50px;
+   padding-left: 10px;
+   color: #ffffff;
+}
+
+#page-mod-data-view .editing .navbar .navbutton input[type="submit"]:hover {
+   background-position: right center;
+   color: #eeeeee;
+}
