@@ -21,8 +21,15 @@
 
 .block .header .block_action img,
 .block .header .block_action input {
-   width: 11px;
-   height: 11px;
+   width: 14px;
+   height: 14px;
+   margin-top: 2px;
+   margin-right: 5px;
+}
+
+.block .header .block_action img.moveto,
+.block .header .block_action input.moveto {
+  margin-right: 0;
 }
 
 .block .content {

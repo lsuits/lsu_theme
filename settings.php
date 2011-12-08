@@ -35,7 +35,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_lsu/header_logo_width';
     $title = get_string('logo_width','theme_lsu');
     $description = get_string('logowidthdesc', 'theme_lsu');
-    $default = 210;
+    $default = 275;
     $setting = new admin_setting_configtext($name, $title, $description, $default . 'px');
     $settings->add($setting);
 
@@ -43,7 +43,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_lsu/header_logo_height';
     $title = get_string('logo_height','theme_lsu');
     $description = get_string('logoheightdesc', 'theme_lsu');
-    $default = 29;
+    $default = 43;
     $setting = new admin_setting_configtext($name, $title, $description, $default . 'px');
     $settings->add($setting);
 

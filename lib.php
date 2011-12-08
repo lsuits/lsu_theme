@@ -214,7 +214,7 @@ function lsu_set_header_logo_width($css, $header_logo_width) {
     $tag = '[[setting:header_logo_width]]';
     $replacement = $header_logo_width;
     if (is_null($replacement)) {
-        $replacement = 210;
+        $replacement = 275;
     }
     $css = str_replace($tag, $replacement, $css);
     return $css;
@@ -231,7 +231,7 @@ function lsu_set_header_logo_height($css, $header_logo_height) {
     $tag = '[[setting:header_logo_height]]';
     $replacement = $header_logo_height;
     if (is_null($replacement)) {
-        $replacement = 29;
+        $replacement = 43;
     }
     $css = str_replace($tag, $replacement, $css);
     return $css;

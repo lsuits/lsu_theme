@@ -42,8 +42,9 @@ echo $OUTPUT->doctype() ?>
            <a class="logo" href="<?php echo $CFG->wwwroot ?>"><span class="invisitext">Moodle Home</span></a>
         </div>
         <?php if ($hascustommenu) { ?>
-        <div id="custommenu"><?php echo $OUTPUT->login_info(); echo $custommenu; ?></div>
+        <div id="custommenu"><?php echo $custommenu; ?></div>
         <?php } ?>
+        <div id="logininfo"><?php echo $OUTPUT->login_info(); ?></div>
         <h1 class="headermain"><?php echo $PAGE->heading ?></h1>
         </div><?php } ?>
         <?php if ($hasnavbar) { ?>
