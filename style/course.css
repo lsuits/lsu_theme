@@ -114,6 +114,10 @@
    margin-left: 70px;
 }
 
+.editing .course-content a.editing_assign {
+  display: none;
+}
+
 /** Course **/
 .coursebox {
    border:1px solid #DDD;
