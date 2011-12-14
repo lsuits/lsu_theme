@@ -110,7 +110,7 @@ td.grade div.overridden {
 }
 
 .gradetreebox tr th.cell.level2, .gradetreebox tr th.cell.level3, .gradetreebox tr th.cell.level4, .gradetreebox tr th.cell.level5 {
-   width: 1px !important;
+   width: 5px !important;
    padding: 0;
    min-width: 0;
 } 
