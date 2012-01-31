@@ -198,6 +198,15 @@ div.region-content>div.box, div.userprofile {
   border-top-right-radius: 1em;
 }
 
+.block_course_overview_plus div.coursebox {
+  -moz-border-radius-bottomright: 1em;
+  -webkit-border-bottom-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  -moz-border-radius-topright: 1em;
+  -webkit-border-top-right-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
 input[type="submit"], button[type="submit"], input[type="button"] {
    border-radius: 3px;
    -moz-border-radius: 3px;
