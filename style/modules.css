@@ -110,6 +110,7 @@ table.mod_index {width:90%;margin:1em auto;}
 #page-mod-forum-index table.generaltable, .forumpost {box-shadow: 0 0 15px #aaa; margin: 10px;}
 #page-mod-forum-index div.box {box-shadow: none; margin: 10px;}
 .path-mod-forum .navbar .navbutton {margin: 2px 10px 0 0;}
+#page-mode-forum-view td.topic.starter {text-align: left;}
 
 /** Glossary **/
 .path-mod-glossary .glossarypost {border:1px solid #DDD;}
