@@ -61,6 +61,22 @@ a:hover {
    background-position: 0 -43px;
 }
 
+.breadcrumb a.dimmed,
+.breadcrumb a.dimmed:link,
+.breadcrumb a.dimmed:visited,
+.breadcrumb a.dimmed_text,
+.breadcrumb a.dimmed_text:link,
+.breadcrumb a.dimmed_text:visited,
+.breadcrumb .dimmed_text,
+.breadcrumb .dimmed_text a,
+.breadcrumb .dimmed_text a:link,
+.breadcrumb .dimmed_text a:visited {
+    height: 100%;
+    opacity: 1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+}
+
 /**
  * Headings
  */
