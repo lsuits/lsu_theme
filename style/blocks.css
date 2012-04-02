@@ -379,8 +379,8 @@
 .block_course_overview .dimmed_text a:link,
 .block_course_overview .dimmed_text a:visited {
     height: 100%;
-    opacity: 0.7;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-    filter: alpha(opacity=70);
+    opacity: 0.6;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
     color: #000;
 }
