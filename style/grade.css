@@ -101,33 +101,38 @@ td.grade div.overridden {
 
 .gradetreebox tr .cell.level1 {
    background-color: #fcecae;
-   width: 5px;
 }
 
 .gradetreebox tr .cell.level2 {
    background-color: #80729d;
-   width: 5px;
 }
-
-.gradetreebox tr th.cell.level2, .gradetreebox tr th.cell.level3, .gradetreebox tr th.cell.level4, .gradetreebox tr th.cell.level5 {
-   width: 5px !important;
-   padding: 0;
-   min-width: 0;
-} 
 
 .gradetreebox tr .cell.level3 {
    background-color: #dae4bd;
-   width: 5px;
 }
 
 .gradetreebox tr .cell.level4 {
    background-color: #cccccc;
-   width: 5px;
 }
 
 .gradetreebox tr .cell.level5 {
    background-color: #ffcccc;
-   width: 5px;
+}
+
+.gradetreebox tr .cell.level6 {
+   background-color: #ccffcc;
+}
+
+.gradetreebox tr .cell.level7 {
+   background-color: #ccccff;
+}
+
+.gradetreebox tr .cell.level8 {
+   background-color: #ffffcc;
+}
+
+.gradetreebox tr .cell.level9 {
+   background-color: #ccffff;
 }
 
 .path-grade form#choosepluginreport {
@@ -171,4 +176,22 @@ td.grade div.overridden {
 
 .path-grade div.region-content>form>div {
    margin-top: -20px;
+}
+
+.gradetreebox tr th.cell.level1, .gradetreebox tr th.cell.level2, .gradetreebox tr th.cell.level3, .gradetreebox tr th.cell.level4, .gradetreebox tr th.cell.level5, .gradetreebox tr th.cell.level6, .gradetreebox tr th.cell.level7, .gradetreebox tr th.cell.level8, .gradetreebox tr th.cell.level9 {
+   width: 10px !important;
+   padding: 0;
+   min-width: 10px !important;
+   border-top: 1px solid #ccc !important;
+   border-bottom: 1px solid #ccc !important;
+   border-right: 1px solid #ccc !important;
+}
+
+.gradetreebox tr.item td {
+   padding-left: 15px;
+}
+
+.gradetreebox tr.categoryitem td, .gradetreebox tr td.actions {
+   padding-left: 5px;
+   white-space: nowrap;
 }
