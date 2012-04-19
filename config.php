@@ -13,11 +13,11 @@ $THEME->sheets = array(
     'course',
     'user',
     'dock',
-    'grade',
     'message',
     'modules',
     'question',
     'buttons',   //** Sets up inputs and buttons **/
+    'grade',
     'css3',      /** Sets up CSS 3 **/
     'browsers',      /** Fixes various browser specific issues **/
     'settings',
