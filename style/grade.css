@@ -80,16 +80,12 @@ td.grade div.overridden {
 }
 
 .gradetreebox tr.category th.cell.rowspan {
-   border-width: 0;
+   border-width: 1px;
    border-left: 1px solid #ccc;
 }
 
-.gradetreebox tr.category th.cell.rowspan: hover {
-   background-color: #eee;
-}
-
 .gradetreebox td.name {
-   border-left: 0px;
+   border-left: 1px;
 }
 
 .gradetreebox td.colspan {
@@ -97,42 +93,6 @@ td.grade div.overridden {
    border-bottom: 1px solid #ccc;
    border-top: none;
    background-color: #ddd;
-}
-
-.gradetreebox tr .cell.level1 {
-   background-color: #fcecae;
-}
-
-.gradetreebox tr .cell.level2 {
-   background-color: #80729d;
-}
-
-.gradetreebox tr .cell.level3 {
-   background-color: #dae4bd;
-}
-
-.gradetreebox tr .cell.level4 {
-   background-color: #cccccc;
-}
-
-.gradetreebox tr .cell.level5 {
-   background-color: #ffcccc;
-}
-
-.gradetreebox tr .cell.level6 {
-   background-color: #ccffcc;
-}
-
-.gradetreebox tr .cell.level7 {
-   background-color: #ccccff;
-}
-
-.gradetreebox tr .cell.level8 {
-   background-color: #ffffcc;
-}
-
-.gradetreebox tr .cell.level9 {
-   background-color: #ccffff;
 }
 
 .path-grade form#choosepluginreport {
@@ -198,4 +158,62 @@ td.grade div.overridden {
 
 #page-grade-report-grader-index th {
    border-color: #bbb !important;
+}
+
+table#user-grades td.topleft {
+  border-width: 1px;
+}
+
+.path-grade-report-grader table td.topleft {
+  border-width:1px;
+}
+
+#page-grade-report-grader-index table th.filler, #page-grade-report-grader-index table th.fillerfirst {
+  border-width: 0 !important;
+}
+
+#page-grade-report-grader-index table td.fixedcolumn.lastcol {
+background-color: #fff;
+border-color: #fff;
+border-left-color: #bbb;
+}
+
+#page-grade-report-grader-index table th.category {
+  border-left-width: 0px !important;
+}
+
+#page-grade-report-grader-index table th.catlevel1, #page-grade-report-grader-index table th.catlevel1highlightable, .gradetreebox tr .cell.level1 {
+   background-color: #ffffff !important;
+}
+
+#page-grade-report-grader-index table th.catlevel2, #page-grade-report-grader-index table th.catlevel2highlightable, .gradetreebox tr .cell.level2 {
+   background-color: #d0d0d0 !important;
+}
+
+#page-grade-report-grader-index table th.catlevel3, #page-grade-report-grader-index table th.catlevel3highlightable, .gradetreebox tr .cell.level3 {
+   background-color: #cfc3e5 !important;
+}
+
+#page-grade-report-grader-index table th.catlevel4, #page-grade-report-grader-index table th.catlevel4highlightable, .gradetreebox tr .cell.level4 {
+   background-color: #dae4bd !important;
+}
+
+#page-grade-report-grader-index table th.catlevel5, #page-grade-report-grader-index table th.catlevel5highlightable, .gradetreebox tr .cell.level5 {
+   background-color: #fcecae !important;
+}
+
+#page-grade-report-grader-index table th.catlevel6, #page-grade-report-grader-index table th.catlevel6highlightable, .gradetreebox tr .cell.level6 {
+   background-color: #ffcccc !important;
+}
+
+#page-grade-report-grader-index table th.catlevel7, #page-grade-report-grader-index table th.catlevel7highlightable, .gradetreebox tr .cell.level7 {
+   background-color: #ccffcc !important;
+}
+
+#page-grade-report-grader-index table th.catlevel8, #page-grade-report-grader-index table th.catlevel8highlightable, .gradetreebox tr .cell.level8 {
+   background-color: #ccccff !important;
+}
+
+#page-grade-report-grader-index table th.catlevel9, #page-grade-report-grader-index table th.catlevel9highlightable, .gradetreebox tr .cell.level9 {
+   background-color: #cccccc !important;
 }
