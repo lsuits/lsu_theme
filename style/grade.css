@@ -195,3 +195,7 @@ td.grade div.overridden {
    padding-left: 5px;
    white-space: nowrap;
 }
+
+#page-grade-report-grader-index th {
+   border-color: #bbb !important;
+}
