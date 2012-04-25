@@ -221,3 +221,56 @@ border-left-color: #bbb;
 #page-grade-report-user-index table td {
    border: 1px solid #bbb;
 }
+
+#page-grade-report-grader-index table th.catlevel1highlightable a, #page-grade-report-grader-index table th.catlevel1highlightable img {
+    margin: 0;
+    vertical-align: top;
+}
+
+#page-grade-report-grader-index table th.catlevel2highlightable a, #page-grade-report-grader-index table th.catlevel2highlightable img {
+    margin: 0;
+    vertical-align: top;
+}
+
+#page-grade-report-grader-index table th.catlevel3highlightable a, #page-grade-report-grader-index table th.catlevel3highlightable img {
+    margin: 0;
+    vertical-align: top;
+}
+
+#page-grade-report-grader-index table th.catlevel4highlightable a, #page-grade-report-grader-index table th.catlevel4highlightable img {
+    margin: 0;
+    vertical-align: top;
+}
+
+#page-grade-report-grader-index table th.catlevel5highlightable a, #page-grade-report-grader-index table th.catlevel5highlightable img {
+    margin: 0;
+    vertical-align: top;
+}
+
+#page-grade-report-grader-index table th.catlevel6highlightable a, #page-grade-report-grader-index table th.catlevel6highlightable img {
+    margin: 0;
+    vertical-align: top;
+}
+
+#page-grade-report-grader-index table th.catlevel7highlightable a, #page-grade-report-grader-index table th.catlevel7highlightable img {
+    margin: 0;
+    vertical-align: top;
+}
+
+#page-grade-report-grader-index table th.catlevel8highlightable a, #page-grade-report-grader-index table th.catlevel8highlightable img {
+    margin: 0;
+    vertical-align: top;
+}
+
+#page-grade-report-grader-index table th.catlevel9highlightable a, #page-grade-report-grader-index table th.catlevel9highlightable img {
+    margin: 0;
+    vertical-align: top;
+}
+
+
+
+#page-grade-report-grader-index span.quickeditgrade {
+   display: block;
+   float: right;
+   margin-left: 8px;
+}
