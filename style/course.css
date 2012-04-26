@@ -1,3 +1,13 @@
+/** General course settings **/
+.course-content .label a, .course-content .label a:link, .course-content .label a:visited {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.course-content .label p {
+    line-height: 1.5em;
+}
+
 /** Course formats **/
 .course-content ul.weeks li.section {
    margin-top: -5px;
