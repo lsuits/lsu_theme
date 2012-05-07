@@ -267,8 +267,14 @@ border-left-color: #bbb;
     vertical-align: top;
 }
 
-
-
 #page-grade-report-grader-index span.quickeditgrade {
    padding-right: 8px;
+}
+
+#page-grade-report-grader-index #studentheader a {
+   padding: 0 2px;
+}
+
+#page-grade-report-grader-index table#fixed_column th.user.cell a {
+   vertical-align: -80%;
 }
