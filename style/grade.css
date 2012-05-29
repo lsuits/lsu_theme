@@ -60,7 +60,7 @@ td.grade div.overridden {
 }
 
 .path-grade-edit-tree .gradetreebox {
-   width: 95%;
+   width: 97.5%;
    padding-bottom: 15px;
 }
 
@@ -70,8 +70,15 @@ td.grade div.overridden {
 }
 
 .gradetreebox {
-   margin: 10px auto;
-   width: 90%;
+   margin: auto;
+   width: 100%;
+   font-size: 90%;
+}
+
+.gradetreebox .smallicon {
+   width: 10px;
+   height: 10px;
+   padding: 0 1px;
 }
 
 .gradetreebox table {
@@ -153,7 +160,6 @@ td.grade div.overridden {
 
 .gradetreebox tr.categoryitem td, .gradetreebox tr td.actions {
    padding-left: 5px;
-   white-space: nowrap;
 }
 
 #page-grade-report-grader-index th {
