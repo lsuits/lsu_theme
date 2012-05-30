@@ -81,7 +81,7 @@ $THEME->layouts = array(
         'file' => 'admin.php',
         'regions' => array('side-pre'),
         'defaultregion' => 'side-pre',
-        'options' => array('nofooter'=>false, 'nonavbar'=>false, 'noblocks'=>true),
+        'options' => array('nofooter'=>false, 'nonavbar'=>false, 'noblocks'=>false),
     ),
     'mydashboard' => array(
         'file' => 'general.php',
