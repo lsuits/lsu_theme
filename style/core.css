@@ -77,12 +77,14 @@ a.dimmed_text:visited,
 .usersuspended a:visited,
 .dimmed_category,
 .dimmed_category a {
-    color: #333;
+    color: #404040;
 }
+
 .activity.label .dimmed_text {
-    opacity: 0.9;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-    filter: alpha(opacity=90);
+    color: #404040;
+    opacity: inherit;
+    -ms-filter: none;
+    filter: none;
 }
 
 .breadcrumb a.dimmed,
@@ -96,9 +98,10 @@ a.dimmed_text:visited,
 .breadcrumb .dimmed_text a:link,
 .breadcrumb .dimmed_text a:visited {
     height: 100%;
-    opacity: 0.9;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-    filter: alpha(opacity=90);
+    color: #404040;
+    opacity: inherit;
+    -ms-filter: none;
+    filter: none;
 }
 
 /**
