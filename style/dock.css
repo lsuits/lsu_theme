@@ -8,6 +8,7 @@
 #dock .dockeditem .dockedtitle h2 {margin:12px 0px;}
 
 /** For the panel the docked blocks are shown in */
+#dockeditempanel {min-width:300px;position:relative;z-index:12000;left:100%;}
 #dockeditempanel .dockeditempanel_content {border-color:#AAA;}
 #dockeditempanel .dockeditempanel_hd {border-bottom-color:#AAA;padding:3px 5px;background-image:url([[pix:theme|hgradient]]);}
 #dockeditempanel .dockeditempanel_hd h2 {font-size:80%;color:#999;}
