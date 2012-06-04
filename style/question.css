@@ -40,3 +40,5 @@
 #page-mod-quiz-edit div.questionbankwindow div.header {background-color: #461d7c; padding: 0;}
 #page-mod-quiz-edit div.questioncontainer div.points {background-color: #ccc !important;}
 #page-mod-quiz-edit div.questionbank {background-color: #ccc;} 
+
+#page-mod-quiz-report div.no-overflow {overflow: auto}
