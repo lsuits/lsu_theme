@@ -22,7 +22,9 @@ a {
 }
 
 a.autolink {
-   color: #000;
+   color: #461d7c;
+   font-weight: bold;
+   text-decoration: underline;
    background-color: transparent;
 }
 
@@ -78,6 +80,7 @@ a.dimmed_text:visited,
 .dimmed_category,
 .dimmed_category a {
     color: #404040;
+    font-weight: normal;
 }
 
 .activity.label .dimmed_text {
@@ -336,6 +339,10 @@ table.formtable tbody th {
 
 .userlist div.no-overflow table {
    margin: 0 auto;
+}
+
+.pagelayout-report #completion-progress-wrapper.no-overflow {
+   overflow: auto;
 }
 
 div.resourceworkaround {
