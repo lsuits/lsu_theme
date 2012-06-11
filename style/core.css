@@ -80,7 +80,6 @@ a.dimmed_text:visited,
 .dimmed_category,
 .dimmed_category a {
     color: #404040;
-    font-weight: normal;
 }
 
 .activity.label .dimmed_text {

@@ -531,3 +531,19 @@
     height: 100%;
 }
 
+.path-course a.dimmed,
+.path-course a.dimmed:link,
+.path-course a.dimmed:visited,
+.path-course a.dimmed_text,
+.path-course a.dimmed_text:link,
+.path-course a.dimmed_text:visited,
+.path-course .dimmed_text,
+.path-course .dimmed_text a,
+.path-course .dimmed_text a:link,
+.path-course .dimmed_text a:visited,
+.path-course .dimmed_category,
+.path-course .dimmed_category a {
+    color: #883333;
+    font-weight: normal;
+}
+
