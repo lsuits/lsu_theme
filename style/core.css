@@ -22,7 +22,7 @@ a {
 }
 
 a.autolink {
-   color: #461d7c;
+   color:[[setting:linkcolor]];
    font-weight: bold;
    text-decoration: underline;
    background-color: transparent;
@@ -993,7 +993,7 @@ table#tag-management-list {
    float: none;
    position: absolute;
    margin: 33px 0 0 143px;
-   color: #fdd023;
+   color:[[setting:headertextcolor]];
    text-align: left;
 }
 
@@ -1128,12 +1128,12 @@ table#tag-management-list {
 }
 
 .navbar a, .navbar a:link, navbar a:visited {
-   color: #2e1352;
+   color:[[setting:linkcolor]];
    font-weight: bold;
 }
 
 .navbar a:hover {
-   color: #461d7c;
+   color:[[setting:hovercolor]];
    text-decoration: underline;
 }
 

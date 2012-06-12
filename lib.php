@@ -41,6 +41,14 @@ function lsu_process_css($css, $theme) {
     }
     $css = lsu_set_header_bgcolor($css, $header_bgcolor);
 
+    // Set the header text color
+    if (!empty($theme->settings->headertextcolor)) {
+        $headertextcolor = $theme->settings->headertextcolor;
+    } else {
+        $headertextcolor = null;
+    }
+    $css = lsu_set_headertextcolor($css, $headertextcolor);
+
     // Set the header background image
     if (!empty($theme->settings->header_background_image)) {
         $header_background_image = $theme->settings->header_background_image;
@@ -164,6 +172,23 @@ function lsu_set_header_bgcolor($css, $header_bgcolor) {
     $replacement = $header_bgcolor;
     if (is_null($replacement)) {
         $replacement = '#2e1352';
+    }
+    $css = str_replace($tag, $replacement, $css);
+    return $css;
+}
+
+/**
+ * Sets the header background color variable in CSS
+ *
+ * @param string $css
+ * @param mixed $headertextcolor
+ * @return string
+ */
+function lsu_set_headertextcolor($css, $headertextcolor) {
+    $tag = '[[setting:headertextcolor]]';
+    $replacement = $headertextcolor;
+    if (is_null($replacement)) {
+        $replacement = '#fdd023';
     }
     $css = str_replace($tag, $replacement, $css);
     return $css;

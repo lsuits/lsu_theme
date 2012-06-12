@@ -76,5 +76,7 @@ $string['background_image'] = 'Background Image';
 $string['background_image_desc'] = 'Enter the URL to a tileable image in place of a site logo.';
 $string['header_bgcolor'] = 'Header Background Color';
 $string['header_bgcolor_desc'] = 'This sets the Background Color for the header area beneath the logo.';
+$string['headertextcolor'] = 'Header Text Color';
+$string['headertextcolor_desc'] = 'This sets the Header Text Color for the h1.headermain text.';
 $string['current_course_section'] = 'Current Section Backgroudn Color';
 $string['current_course_section_desc'] = 'This sets the Background Color for the current section within a course.';

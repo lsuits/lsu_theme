@@ -23,6 +23,14 @@ if ($ADMIN->fulltree) {
     $setting = new admin_setting_configcolourpicker($name, $title, $description, $default);
     $settings->add($setting);
 
+    // Header text color setting
+    $name = 'theme_lsu/headertextcolor';
+    $title = get_string('headertextcolor','theme_lsu');
+    $description = get_string('headertextcolor_desc', 'theme_lsu');
+    $default = '#fdd023';
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, $default);
+    $settings->add($setting);
+
     // Logo file setting
     $name = 'theme_lsu/header_logo';
     $title = get_string('logo','theme_lsu');
