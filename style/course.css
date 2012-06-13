@@ -20,7 +20,7 @@
 }
 
 .course-content ul.weeks li.section ul.section {
-   margin:0 100px 0 20px;
+   margin:0 20px 0 20px;
 }
 
 .course-content ul.weeks li.section .content {
@@ -80,7 +80,7 @@
 }
 
 .course-content ul.topics li.section ul.section {
-   margin:0 100px 0 20px;
+   margin:0 20px 0 20px;
    padding: 0 0 10px 0;
 }
 
@@ -192,15 +192,23 @@
 
 .course-content ul li.section .content .togglecompletion,
 .course-content ul li.section .content .autocompletion {
-   margin-right: 30px;
+   margin-right: 13px;
    padding: 5px;
 }
 
 .course-content ul li.section .content div.horizontal,
 .editing .course-content ul li.section .content .togglecompletion,
 .editing .course-content ul li.section .content .autocompletion {
-   margin-right: 70px;
+   margin-right: 40px;
    padding: 5px;
+}
+
+.course-content ul li.section ul.section li div.no-overflow p {
+   margin-right: 20px !important;
+}
+
+.editing .course-content ul li.section ul.section li div.no-overflow p {
+   margin-right: 50px !important;
 }
 
 
