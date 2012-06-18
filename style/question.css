@@ -42,3 +42,8 @@
 #page-mod-quiz-edit div.questionbank {background-color: #ccc;} 
 
 #page-mod-quiz-report div.no-overflow {overflow: auto}
+
+.que .formulation {background: #fcecae;}
+.que .outcome {background: #fff3bf;}
+.que .comment {background: #e0ffe0;}
+.que .history {background: #eee;}
