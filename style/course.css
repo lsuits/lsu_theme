@@ -270,10 +270,10 @@
    background: #FFFFFF;
 }
 
-.path-course-view .weeks .hidden,
-.path-course-view .topics .hidden,
-.path-course-view .hidden td.side {
-   background: #DDDDDD;
+.path-course-view .weeks .hidden .content,
+.path-course-view .topics .hidden .content {
+   border: 1px solid #883333;
+   background-color: #eee !important;
 }
 
 .path-course-view .section .weekdates {

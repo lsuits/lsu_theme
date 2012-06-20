@@ -284,3 +284,8 @@ border-left-color: #bbb;
 #page-grade-report-grader-index table#fixed_column th.user.cell a {
    vertical-align: -80%;
 }
+
+table#user-grades .hidden,
+table#user-grades .hidden a {
+color:#883333;
+}
