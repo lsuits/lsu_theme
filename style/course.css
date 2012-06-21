@@ -203,6 +203,13 @@
    padding: 5px;
 }
 
+.course-content ul li.section .content span.togglecompletion,
+.course-content ul li.section .content span.autocompletion {
+   width: 18px !important;
+   height: 18px !important;
+   overflow: hidden;
+}
+
 .course-content ul li.section ul.section li div.no-overflow p {
    margin-right: 20px !important;
 }
