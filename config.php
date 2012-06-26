@@ -69,8 +69,8 @@ $THEME->layouts = array(
     ),
     'incourse' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post'),
-        'defaultregion' => 'side-post',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
     ),
     'frontpage' => array(
         'file' => 'general.php',
