@@ -384,3 +384,24 @@
     filter: alpha(opacity=60);
     color: #000;
 }
+
+.ues_people td.user_ferpa, .ues_people td.user_degree {
+   text-align: center;
+}
+
+.ues_people td span.yes {
+   display: block;
+   padding: .9em 0;
+   height: auto;
+   margin: 0;
+}
+
+.ues_people td.user_ferpa span.ferpa {
+   color: #ffffff;
+   background-color: #cc0000 !important;
+}
+
+.ues_people td.user_degree span.degree {
+   color: #ffffff;
+   background-color: #00cc00 !important;
+}
