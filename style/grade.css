@@ -52,8 +52,12 @@ td.grade div.overridden {
 .path-grade-report-grader .graderreportoverlay {
    background-color: #eeeeee;
    border: 1px solid #ccc;
-   padding: 10px;
+   padding: 5px;
+   font-size: 80%;
 }
+
+.path-grade-report-grader .graderreportoverlay div.feedback {
+}  
 
 .path-grade-edit-tree .moving {
    background-color: #e8eef7;
