@@ -5,29 +5,29 @@ $THEME->name = 'lsu';
 $THEME->parents = array('base');
 
 $THEME->sheets = array(
-    'core',     /** Must come first**/
+    'core',     /** Must come first **/
     'pagelayout',
+    'course',
     'admin',
     'blocks',
     'calendar',
-    'course',
     'user',
-    'dock',
     'message',
     'modules',
     'question',
-    'buttons',   //** Sets up inputs and buttons **/
     'grade',
+    'dock',
+    'buttons',   /** Sets up inputs and buttons **/
     'css3',      /** Sets up CSS 3 **/
     'browsers',      /** Fixes various browser specific issues **/
     'settings',
-    'print'
+    'print'      /** Must come last **/
 );
 
 $THEME->parents_exclude_sheets = array(
-                'base'=>array(
-                        'pagelayout',
-                ),
+    'base'=>array(
+        'pagelayout'
+   ),
 );
 
 /* Uncomment this block of code to allow students to dock course blocks **
