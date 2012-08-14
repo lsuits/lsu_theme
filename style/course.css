@@ -560,7 +560,7 @@
 }
 
 .path-course.editing .icon.hide {
-   margin-top: 5px;
+   margin-top: .5em;
 }
 
 .path-course.editing .section-handle {
@@ -641,4 +641,8 @@
 
 .path-course .section div.right.side, .path-course .section div.left.side, .path-course .section-summary div.left.side, .path-course .section-summary div.right.side {
   display: none;
+}
+
+.path-course.editing div.right.side {
+  display: block;
 }
