@@ -31,6 +31,10 @@
     margin-left: 231px;
 }
 
+.ie.path-course .single-section li.section .content span.completionprogress {
+   bottom: 2.2em;
+}
+
 /***************************************
  ***************** IE9 *****************
  **************************************/
@@ -195,4 +199,14 @@
 
 .ie6 #dock .bd.oversized_content {
    width: 100%;
+}
+
+/***************************************
+ **************** GECKO ****************
+ **************************************/
+
+.gecko .breadcrumb li span {
+   padding-top: 6px !important;
+   padding-bottom: 5px !important;
+
 }

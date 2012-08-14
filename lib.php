@@ -202,10 +202,11 @@ function lsu_set_headertextcolor($css, $headertextcolor) {
  * @return string
  */
 function lsu_set_header_background_image($css, $header_background_image) {
+        global $OUTPUT;
     $tag = '[[setting:header_background_image]]';
     $replacement = $header_background_image;
     if (is_null($replacement)) {
-        $replacement = 'lsu/pix/lsu_bg_logo.png';
+        $replacement = $OUTPUT->pix_url('lsu_bg_logo', 'theme');
     }
     $css = str_replace($tag, $replacement, $css);
     return $css;
@@ -219,10 +220,11 @@ function lsu_set_header_background_image($css, $header_background_image) {
  * @return string
  */
 function lsu_set_header_logo($css, $header_logo) {
+        global $OUTPUT;
     $tag = '[[setting:header_logo]]';
     $replacement = $header_logo;
     if (is_null($replacement)) {
-        $replacement = 'lsu/pix/lsu_logo.png';
+        $replacement = $OUTPUT->pix_url('lsu_logo', 'theme');
     }
     $css = str_replace($tag, $replacement, $css);
     return $css;

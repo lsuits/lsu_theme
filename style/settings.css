@@ -17,12 +17,12 @@ div#page, #page-header .navbar .breadcrumb {
 }
 
 #page-header{
-/**        background:url([[setting:header_background_image]]) [[setting:header_bgcolor]] 10px 25px no-repeat; **/
-        background-color: [[setting:header_bgcolor]]; **/
+/*        background:url([[setting:header_background_image]]) [[setting:header_bgcolor]] 10px 25px no-repeat; */ 
+        background-color: [[setting:header_bgcolor]]; 
 }
 
 #page-header #logo a.logo {
-        background:url([[setting:header_logo]]) transparent 0 0 no-repeat;
+        background: url([[setting:header_logo]]) transparent 0 0 no-repeat;
         width: [[setting:header_logo_width]]px;
         height: [[setting:header_logo_height]]px;
 }

@@ -35,7 +35,7 @@
 
 .course-content ul.weeks li.section .content h3 {
    margin: 0;
-   color: #777;
+   color: #333;
    font-weight: normal;
 }
 
@@ -48,10 +48,9 @@
 }
 
 .course-content ul.weeks li.section .sectionname {
-   float: left;
 }
 
-.course-content ul.weeks li.section .content h3.weekdates {
+.course-content ul.weeks li.section .content h3.sectionname, .course-content li.section .content h3.section-title {
    margin: 0;
    padding: 4px 0 0 2em;
    height: 24px;
@@ -279,13 +278,9 @@
    background-color: #eee !important;
 }
 
-.path-course-view .section .weekdates {
-   color: #777777;
-}
-
 .path-course-view .weeks .weekdates ,
 .path-course-view .topics .weekdates {
-   color: #333333;
+   color: #000;
 }
 
 .weeks li.section ,
@@ -598,4 +593,52 @@
 
 .path-course div#changenumsections {
   padding-right: 10px;
+}
+
+/** SINGLE Section Per Page **/
+.path-course .single-section .section-navigation.header {
+   padding: 0;
+   height: 24px;
+   background: transparent;  
+   margin-bottom: 0;
+   border-bottom-width: 0;
+}
+.path-course .single-section .section-navigation.header .mdl-align {
+   margin: 0;
+   padding: 5px;
+   background: transparent url([[pix:theme|navbar]]) 0 -150px repeat-x;
+}
+
+.path-course .single-section .section-navigation .mdl-right, .path-course .single-section .section-navigation .mdl-left {
+   padding: 5px 1em 0 1em;
+}
+
+.path-course .single-section li.section {
+   border-top-width: 0 !important;
+   margin-top: 0 !important;
+}
+
+.path-course .single-section li.section .content span.completionprogress {
+   float: none;
+   margin: 0;
+   padding: 0;
+   right: 2.5em;
+   bottom: 3em;
+   position: absolute;
+}
+
+.path-course .single-section .section-navigation.mdl-bottom {
+   margin-top: 1em;
+   padding-bottom: 15px;
+}
+.path-course .single-section li.section .content {
+   min-height: 2em;
+}
+
+.path-course .content {
+   padding-bottom: .5em !important;
+}
+
+.path-course .section div.right.side, .path-course .section div.left.side, .path-course .section-summary div.left.side, .path-course .section-summary div.right.side {
+  display: none;
 }
