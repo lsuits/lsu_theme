@@ -847,6 +847,20 @@ form.popupform label {
    text-align: center;
 }
 
+.groupmanagementtable #buttonscell p input {
+   min-width: 80px;
+   height: auto;
+   padding: .5em;
+}
+
+.groupmanagementtable #buttonscell p input#add {
+   width: 80px;
+}
+
+.groupmanagementtable #buttonscell p input#remove {
+   width: 80px;
+}
+
 .groupmanagementtable #buttonscell input {
    padding: 1em 0;
 }
