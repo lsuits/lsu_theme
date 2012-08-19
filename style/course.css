@@ -643,6 +643,6 @@
   display: none;
 }
 
-.path-course.editing div.right.side {
+.path-course.editing div.right.side, .path-course.editing div.left.side {
   display: block;
 }
