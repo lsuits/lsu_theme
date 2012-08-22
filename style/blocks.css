@@ -175,6 +175,38 @@
    margin: 10px;
 }
 
+.block_course_overview a.dimmed,
+.block_course_overview a.dimmed:link,
+.block_course_overview a.dimmed:visited,
+.block_course_overview a.dimmed_text,
+.block_course_overview a.dimmed_text:link,
+.block_course_overview a.dimmed_text:visited,
+.block_course_overview .dimmed_text,
+.block_course_overview .dimmed_text a,
+.block_course_overview .dimmed_text a:link,
+.block_course_overview .dimmed_text a:visited {
+    height: 100%;
+    opacity: 1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+}
+
+.block_course_overview div.assign.overview {
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.block_course_overview div.coursebox {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.block_course_overview .collapsibleregioncaption {
+   padding-bottom: 5px;
+}
+
 /** Course Overview Plus **/
 .block_course_overview_plus .coursebox h3 {
    margin: 10px;
@@ -366,23 +398,6 @@
     opacity: 1;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
-}
-
-.block_course_overview a.dimmed,
-.block_course_overview a.dimmed:link,
-.block_course_overview a.dimmed:visited,
-.block_course_overview a.dimmed_text,
-.block_course_overview a.dimmed_text:link,
-.block_course_overview a.dimmed_text:visited,
-.block_course_overview .dimmed_text,
-.block_course_overview .dimmed_text a,
-.block_course_overview .dimmed_text a:link,
-.block_course_overview .dimmed_text a:visited {
-    height: 100%;
-    opacity: 0.6;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
-    color: #000;
 }
 
 .ues_people td.user_ferpa, .ues_people td.user_degree {

@@ -189,7 +189,7 @@ div.region-content>div.box, div.userprofile {
    box-shadow: 0 0 15px #bbbbbb;
 }
 
-.block_course_overview div.coursebox {
+.block_course_overview div.coursebox, .block_course_overview div.assign.overview {
   -moz-border-radius-bottomright: 1em;
   -webkit-border-bottom-right-radius: 1em;
   border-bottom-right-radius: 1em;
