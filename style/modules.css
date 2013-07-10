@@ -112,6 +112,31 @@ table.mod_index {width:90%;margin:1em auto;}
 .path-mod-forum .navbar .navbutton {margin: 2px 10px 0 0;}
 #page-mod-forum-view td.topic.starter {text-align: left;}
 
+#page-mod-hsuforum-view .forummode,
+.path-mod-hsuforum .forumheaderlist .replies {text-align: center;}
+.path-mod-hsuforum .forumheaderlist .discussion .lastpost {font-size: 0.7em;}
+.path-mod-hsuforum .forumnodiscuss {font-weight:bold;text-align:center;}
+#page-mod-forum-subscribers .subscriberdiv,
+#page-mod-forum-subscribers .subscribertable {background-color:#EEEEEE;border:1px solid #BBBBBB;}
+#page-mod-forum-subscribers .subscriberdiv,
+#page-mod-forum-subscribers .subscribertable tr td {padding:0.2em 0.3em;}
+#page-mod-forum-discuss .ratingsubmit {text-align:center;padding:10px;}
+#page-mod-hsuforum-view .forumheaderlist .discussion .starter, /** Discussion column background in */
+#page-mod-hsuforum-view .forumaddnew {margin-bottom: 20px;text-align:center;}
+#page-mod-hsuforum-view .forumheaderlist td {border-color: #ccc;} /** wire frame around cells in */
+#page-mod-hsuforum-view .unread {padding: 0 3px;} /** unread column background on */
+#page-mod-hsuforum-view .forumheaderlist  {margin: 10px; width: auto; border: none; box-shadow: 0 0 15px #aaa;}
+#page-mod-hsuforum-view .forumheaderlist tbody {background-color: #fff;}
+#email .unsubscribelink {border-width: 0px 1px 0px 0px;border-style: solid;text-align:center;}
+#page-mod-hsuforum-view .highlight2 {color:#AA0000;}
+#page-mod-hsuforum-view.dir-rtl .forumheaderlist .discussion .starter {text-align:right;}
+#page-mod-forum-search .region-content .box {margin: 10px; padding: 10px; background-color: #fff;}
+#page-mod-forum-index table.generaltable, .forumpost {box-shadow: 0 0 15px #aaa; margin: 10px;}
+#page-mod-forum-index div.box {box-shadow: none; margin: 10px;}
+.path-mod-hsuforum .navbar .navbutton {margin: 2px 10px 0 0;}
+#page-mod-hsuforum-view td.topic.starter {text-align: left;}
+
+
 /** Glossary **/
 .path-mod-glossary .glossarypost {border:1px solid #DDD;}
 #page-mod-glossary-view.dir-rtl .glossarypost {text-align: right;}
