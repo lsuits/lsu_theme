@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="298.54" y1="-370.5547" x2="310.3544" y2="-382.369" gradientTransform="matrix(1 0 0 -1 -298 -370)">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#DBFDBC"/>
+</linearGradient>
+<polygon fill="url(#SVGID_1_)" points="0.577,6.332 0.547,0.548 6.319,0.576 15.221,9.491 9.476,15.247 "/>
+<g>
+	<path fill="#5FA31E" d="M1.093,1.094l5.001-0.016l8.359,8.413l-4.977,4.985L1.12,6.104L1.093,1.094 M0,0v6.559l9.476,9.458
+		l6.514-6.525L6.545,0H0L0,0z"/>
+</g>
+<g>
+	<polygon fill="#A6F959" points="9.489,12.96 2.95,6.413 2.933,2.945 6.393,2.962 12.929,9.512 	"/>
+</g>
+<g>
+	<rect x="2.667" y="2.681" fill="#FFFFFF" width="3.307" height="3.313"/>
+	<path fill="#5FA31E" d="M5.432,3.226V5.45H3.211V3.226H5.432 M6.519,2.137H2.124v4.402h4.395V2.137L6.519,2.137z"/>
+</g>
+<g>
+	<g>
+		
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="304.9463" y1="-377.2354" x2="308.2283" y2="-380.5175" gradientTransform="matrix(1 0 0 -1 -297.9219 -370.1875)">
+			<stop  offset="0" style="stop-color:#5FA31E"/>
+			<stop  offset="0.2577" style="stop-color:#8BDC40"/>
+			<stop  offset="0.5092" style="stop-color:#5FA31E"/>
+			<stop  offset="0.7546" style="stop-color:#8BDC40"/>
+			<stop  offset="0.9877" style="stop-color:#5FA31E"/>
+		</linearGradient>
+		<polygon fill="url(#SVGID_2_)" points="9.252,11.384 5.975,8.1 8.077,5.994 11.356,9.277 		"/>
+	</g>
+	
+		<rect x="6.633" y="7.613" transform="matrix(0.7068 0.7074 -0.7074 0.7068 7.7999 -2.6549)" fill="#FFFFFF" width="0.94" height="0.941"/>
+	
+		<rect x="7.585" y="6.66" transform="matrix(0.7068 0.7074 -0.7074 0.7068 7.4054 -3.6072)" fill="#FFFFFF" width="0.94" height="0.941"/>
+	
+		<rect x="7.717" y="8.697" transform="matrix(0.7071 0.7071 -0.7071 0.7071 8.88 -3.1043)" fill="#FFFFFF" width="0.941" height="0.941"/>
+	
+		<rect x="8.668" y="7.745" transform="matrix(0.7066 0.7076 -0.7076 0.7066 8.4948 -4.0563)" fill="#FFFFFF" width="0.941" height="0.941"/>
+	
+		<rect x="8.77" y="9.745" transform="matrix(0.7074 0.7068 -0.7068 0.7074 9.9247 -3.5421)" fill="#FFFFFF" width="0.941" height="0.942"/>
+	
+		<rect x="9.721" y="8.794" transform="matrix(0.7066 0.7076 -0.7076 0.7066 9.5458 -4.4935)" fill="#FFFFFF" width="0.941" height="0.941"/>
+</g>
+</svg>
