@@ -5,12 +5,13 @@
 	 width="32px" height="32px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <style type="text/css">
 <![CDATA[
-	.st0{fill:#D40017;stroke:#D40017;stroke-width:2;stroke-miterlimit:10;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:none;stroke:#3F86FF;stroke-width:2;stroke-miterlimit:10;}
+	.st0{fill:#FFFFFF;stroke:#3F86FF;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:#D40017;stroke:#D40017;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
 	.st3{fill:#D40017;}
 ]]>
 </style>
+<path class="st0" d="M1.31,14.5C6.86,9.17,4.53,0.73,4.53,0.73l14.59,0.74c0,0,2.32,11.72-4.58,22.53C11.05,24,9,24,9,24"/>
 <g>
 	<path class="st3" d="M20.44,3.9c0,0,1.02-0.19,2.84-0.15c0.91,0.03,2.02,0.14,3.26,0.53c1.21,0.39,2.67,1.17,3.5,2.73
 		c0.41,0.76,0.6,1.66,0.63,2.56c0,0.23,0.01,0.44-0.01,0.69l-0.04,0.63c-0.03,0.42-0.1,0.91-0.17,1.35
@@ -28,7 +29,6 @@
 		c0.03-0.74-0.07-1.46-0.33-2.07c-0.53-1.24-1.67-2.02-2.76-2.46c-1.1-0.45-2.16-0.63-3.02-0.74c-0.87-0.1-1.57-0.12-2.04-0.12
 		c-0.47,0-0.72,0.02-0.72,0.02L20.44,3.9z"/>
 </g>
-<path class="st2" d="M1.31,14.5C6.86,9.17,4.53,0.73,4.53,0.73l14.59,0.74c0,0,2.32,11.72-4.58,22.53C11.05,24,9,24,9,24"/>
-<polygon class="st1" points="8.66,22.62 11.06,25.06 8.28,26 "/>
-<polygon class="st0" points="2.74,14.88 10.12,15.12 9.88,22.42 "/>
+<polygon class="st2" points="8.66,22.62 11.06,25.06 8.28,26 "/>
+<polygon class="st1" points="2.74,14.88 10.12,15.12 9.88,22.42 "/>
 </svg>
