@@ -646,3 +646,32 @@
 .path-course.editing div.right.side, .path-course.editing div.left.side {
   display: block;
 }
+
+.forumng-subscribe-options {
+    text-align: center;
+ }
+
+#forumng-main {
+  margin: 10px 20px 20px 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px #bbbbbb;
+}
+
+ #forumng-main .forumng-stop-indent .forumng-replies{
+    margin: 0px;
+}
+
+
+ .forumng-post {
+    margin-bottom: 1em;
+    border: 1px solid #aaa;
+    padding: 0.5em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.forumng-iframe #page-header {
+    display: none;
+}
