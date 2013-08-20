@@ -580,11 +580,11 @@
 }
 
 .path-course span.commands a {
-  margin: 0 2px; 
+  margin: 0 5px; 
 }
 
 .path-course span.commands a.editing_delete {
-  float: right;
+  float: none;
 }
 
 .path-course span.commands img.spinner {
