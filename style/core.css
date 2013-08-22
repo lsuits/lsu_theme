@@ -1068,6 +1068,7 @@ table#tag-management-list {
 
 .gecko .navbar .breadcrumb li span {
    padding: 4px 27px 4px 20px;
+   background-position: 0 1px;
 }
 
 .navbar .breadcrumb li a {
