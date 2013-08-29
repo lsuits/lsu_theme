@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="80px" height="80px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="327.3682" y1="-355.9111" x2="284.6313" y2="-281.8888" gradientTransform="matrix(1 0 0 -1 -266 -275)">
+	<stop  offset="0" style="stop-color:#0D4200"/>
+	<stop  offset="1" style="stop-color:#63D14A"/>
+</linearGradient>
+<rect x="0.6" y="17.3" fill="url(#SVGID_1_)" width="78.8" height="53.2"/>
+<ellipse fill="#7CD855" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="40" cy="44" rx="16" ry="14.8"/>
+<path fill="#999999" d="M79.4,71.1H0.6c-0.3,0-0.6-0.3-0.6-0.6V17.3c0-0.3,0.3-0.6,0.6-0.6h78.8c0.3,0,0.6,0.3,0.6,0.6v53.2
+	C80,70.8,79.7,71.1,79.4,71.1z M1.2,69.9h77.6v-52H1.2V69.9z"/>
+<rect x="7.5" y="9.5" fill="#FFFFFF" width="21.6" height="14.8"/>
+<path fill="#999999" d="M29.1,24.9H7.5c-0.3,0-0.6-0.3-0.6-0.6V9.5c0-0.3,0.3-0.6,0.6-0.6h21.6c0.3,0,0.6,0.3,0.6,0.6v14.8
+	C29.7,24.7,29.4,24.9,29.1,24.9z M8.1,23.7h20.4V10.1H8.1V23.7z"/>
+<rect x="8.1" y="17.6" fill="#A0D88B" width="20.4" height="6.1"/>
+<line fill="none" stroke="#CCCCCC" stroke-width="1.2029" stroke-linejoin="round" stroke-miterlimit="10" x1="8" y1="17.3" x2="28.5" y2="17.3"/>
+</svg>
