@@ -1592,3 +1592,7 @@ table#tag-management-list {
    margin-left: 5px;
 }
 
+#page-site-index #coursesearch #shortsearchbox {
+width: 28em;
+margin: 0 5px 0 0;
+}
