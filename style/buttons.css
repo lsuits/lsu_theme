@@ -73,7 +73,7 @@ input[type="text"][disabled], input[type="password"][disabled] {
    border: 1px solid #461d7c;
    color: #000000;
 }
-
+/*
 input[type="checkbox"] {
    -moz-appearance: none !important;
    margin: 0 10px 0 0;
@@ -100,7 +100,7 @@ input[type="radio"]:checked {
    background-color: #461d7c;
    border: 3px double #fdd023;
 }
-
+*/
 .gecko input[type="submit"], .gecko button[type="submit"] {
    padding: 1px 5px;
 }
