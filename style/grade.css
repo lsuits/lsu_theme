@@ -293,3 +293,11 @@ table#user-grades .hidden,
 table#user-grades .hidden a {
 color:#883333;
 }
+
+#page-grade-edit-tree-item #fitem_id_grademin input#id_grademin, #page-grade-edit-tree-category input#id_grade_item_grademin {
+  background-color: #ccc;
+}
+
+#page-grade-edit-tree-item #fitem_id_grademin, #page-grade-edit-tree-category #fitem_id_grade_item_grademin {
+ display: none;
+}
