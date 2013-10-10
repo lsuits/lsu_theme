@@ -675,3 +675,7 @@
 .forumng-iframe #page-header {
     display: none;
 }
+
+span.rarrow, span.larrow {
+   padding: 0 10px 0 10px;
+}
