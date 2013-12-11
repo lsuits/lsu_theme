@@ -372,7 +372,10 @@ div.resourceworkaround {
 
 .loginbox {
    margin: 15px 25%;
-   width: 50%;
+   width: 90%;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
    border: 1px solid;
 }
 
@@ -385,6 +388,17 @@ div.resourceworkaround {
 .loginbox.twocolumns .loginpanel,
 .loginbox .subcontent {
    border-color: #cccccc;
+   background-color: #eeeeee;
+}
+
+.loginbox.twocolumns .loginpanel {
+  border: none;
+  background-color: transparent;
+}
+
+.loginpanel a {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .loginbox .guestsub,

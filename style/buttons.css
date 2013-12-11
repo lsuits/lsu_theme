@@ -180,3 +180,21 @@ input[type="radio"]:checked {
    background-position: right center;
    color: #eeeeee;
 }
+
+.zocial.LSUPAWS:before {
+   content: "?";
+}
+
+.zocial.LSUExternal:before {
+   content: ">";
+}
+
+.zocial.LSUPAWS {
+   background-color: #461d7c;
+   color: #eeeeee;
+}
+
+.zocial.LSUExternal {
+   background-color: #fdd023;
+   color: #333333;
+}
