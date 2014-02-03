@@ -224,3 +224,6 @@ a#mod-scorm-log-toggle {font-size: 0.7em;font-weight: bold;}
 #page-mod-survey-report .studentreport,
 #page-mod-survey-report .reportbuttons,
 #page-mod-survey-report .centerpara {text-align:center;}
+
+/** Page **/
+#page-mod-page-view > #page-content > #region-main-box > #region-post-box > #region-main-wrap > #region-main > .region-content > div > div.box.generalbox.center.clearfix { text-align: left; }
