@@ -127,18 +127,18 @@ $THEME->layouts = array(
         'regions' => array(),
         'options' => array('nofooter'=>true, 'nonavbar'=>true, 'noblocks'=>true),
     ),
-    // Should display the content and basic headers only.
-    'print' => array(
-        'file' => 'general.php',
-        'regions' => array(),
-        'options' => array('nofooter'=>true, 'nonavbar'=>true, 'noblocks'=>true),
-    ),
     // The pagelayout used for reports
     'report' => array(
         'file' => 'report.php',
         'regions' => array(),
         'options' => array('nofooter'=>false, 'nonavbar'=>false, 'noblocks'=>true),
     ),
+    // The pagelayout used for printing
+    'print' => array(
+        'file' => 'print.php',
+        'regions' => array(),
+        'options' => array('nofooter'=>true, 'nonavbar'=>true, 'noblocks'=>true),
+    )
 );
 
 $THEME->csspostprocess = 'lsu_process_css';
