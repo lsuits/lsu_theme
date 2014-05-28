@@ -125,12 +125,17 @@ td.grade div.overridden {
 
 .path-grade div.gradeparent {
    margin-left: 10px;
+   background-color: transparent;
 }
 
 .path-grade .left_scroller, .path-grade .left_scroller #fixed_column, .path-grade .right_scroller #user-grades {
    vertical-align: top;
    padding-top: 0;
    margin-top: 0;
+}
+
+.path-grade .left_scroller {
+   margin-top: 20px;
 }
 
 #page-grade-report-grader-preferences div.box {
