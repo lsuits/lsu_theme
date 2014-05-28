@@ -591,6 +591,48 @@
   float: right;
 }
 
+.editing .course-content .section .activity .activityinstance {
+  display: inline-block;
+  padding-right: 0;
+  vertical-align: bottom;
+}
+
+.editing .toggle-display.textmenu {
+   display: none!important;
+   padding-right: 0;
+}
+
+.editing.jsenabled .toggle-display.textmenu {
+   display: inline-block!important;
+   padding-right: 10px;
+}
+
+
+.editing .moodle-actionmenu li a {
+  padding: 0 4px;
+}
+
+.editing .moodle-actionmenu li a.editing_assign {
+  display: none!important;
+}
+
+.path-course-view .section {
+  font-size: 1em;
+}
+
+.path-course .section .activity .actions {
+  position: relative;
+  display: inline-block;
+  clear: none;
+  vertical-align: bottom;
+}
+
+.path-course a.editing_title {
+  padding-left: 2em;
+  vertical-align: bottom;
+}
+
+
 .path-course div#changenumsections {
   padding-right: 10px;
 }
