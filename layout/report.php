@@ -50,7 +50,7 @@ echo $OUTPUT->doctype() ?>
         </div><?php } ?>
         <?php if ($hasnavbar) { ?>
             <div class="navbar clearfix">
-                <div class="breadcrumb"><?php echo $OUTPUT->navbar(); ?></div>
+                <div class="breadcrumb"><button id="toggle" style="float:left; margin-right: 2em;">Toggle Header</button><?php echo $OUTPUT->navbar(); ?></div>
                 <div class="navbutton"> <?php echo $PAGE->button; ?></div>
             </div>
         <?php } ?>
@@ -89,4 +89,17 @@ echo $OUTPUT->doctype() ?>
 </div>
 <?php echo $OUTPUT->standard_end_of_body_html() ?>
 </body>
+<script type="text/javascript">
+YUI().use('node', function(Y) {
+    Y.delegate('click', function(e) {
+        var buttonID = e.currentTarget.get('id'),
+            node = Y.one('#page-header');
+
+        if (buttonID === 'toggle') {
+            node.toggleView();
+        }
+
+    }, document, 'button');
+});
+</script>
 </html>
