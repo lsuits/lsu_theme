@@ -233,6 +233,14 @@ border-left-color: #bbb;
    background-color: #ccffff !important;
 }
 
+#page-grade-report-grader-index .right_scroller .r0 td, #page-grade-report-grader-index .right_scroller .r1 th {
+   background-color: #ffffff;
+}
+
+#page-grade-report-grader-index .right_scroller .r1 td, #page-grade-report-grader-index .right_scroller .r0 th {
+   background-color: #efefef;
+}
+
 #page-grade-report-user-index table td {
    border: 1px solid #bbb;
 }
