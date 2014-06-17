@@ -233,11 +233,11 @@ border-left-color: #bbb;
    background-color: #ccffff !important;
 }
 
-#page-grade-report-grader-index .right_scroller .r0 td, #page-grade-report-grader-index .right_scroller .r1 th {
+#page-grade-report-grader-index .right_scroller .even td, #page-grade-report-grader-index .left_scroller .even th {
    background-color: #ffffff;
 }
 
-#page-grade-report-grader-index .right_scroller .r1 td, #page-grade-report-grader-index .right_scroller .r0 th {
+#page-grade-report-grader-index .right_scroller .odd td, #page-grade-report-grader-index .left_scroller .odd th {
    background-color: #efefef;
 }
 
