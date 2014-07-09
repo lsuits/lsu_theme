@@ -302,6 +302,10 @@ border-left-color: #bbb;
    vertical-align: -80%;
 }
 
+#page-grade-report-grader-index div.right_scroller.topscroll {
+   height: 16px;
+}
+
 table#user-grades .hidden,
 table#user-grades .hidden a {
 color:#883333;
