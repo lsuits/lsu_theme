@@ -318,3 +318,8 @@ color:#883333;
 #page-grade-edit-tree-item #fitem_id_grademin, #page-grade-edit-tree-category #fitem_id_grade_item_grademin {
  display: none;
 }
+
+.initialbar > :not(a) {
+ margin-right: .25em;
+ margin-left: .25em;
+}
