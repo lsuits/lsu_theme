@@ -233,6 +233,14 @@ border-left-color: #bbb;
    background-color: #ccffff !important;
 }
 
+#page-grade-report-grader-index .right_scroller .even td, #page-grade-report-grader-index .left_scroller .even th {
+   background-color: #ffffff;
+}
+
+#page-grade-report-grader-index .right_scroller .odd td, #page-grade-report-grader-index .left_scroller .odd th {
+   background-color: #efefef;
+}
+
 #page-grade-report-user-index table td {
    border: 1px solid #bbb;
 }
@@ -294,6 +302,10 @@ border-left-color: #bbb;
    vertical-align: -80%;
 }
 
+#page-grade-report-grader-index div.right_scroller.topscroll {
+   height: 16px;
+}
+
 table#user-grades .hidden,
 table#user-grades .hidden a {
 color:#883333;
@@ -305,4 +317,9 @@ color:#883333;
 
 #page-grade-edit-tree-item #fitem_id_grademin, #page-grade-edit-tree-category #fitem_id_grade_item_grademin {
  display: none;
+}
+
+.initialbar > :not(a) {
+ margin-right: .25em;
+ margin-left: .25em;
 }

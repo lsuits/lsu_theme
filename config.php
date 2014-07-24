@@ -32,7 +32,7 @@ $THEME->parents_exclude_sheets = array(
 
 /* Uncomment this block of code to allow students to dock course blocks **
 global $CFG, $COURSE;
-$context = get_context_instance(CONTEXT_COURSE, $COURSE->id);
+$context = context_course::instance($COURSE->id);
 $candockit = has_capability('moodle/course:manageactivities', $context);
 
 if ($candockit) {
