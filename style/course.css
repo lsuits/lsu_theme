@@ -191,6 +191,11 @@
    padding: 5px;
 }
 
+.course-content ul li.section .content span.actions {
+   position: absolute;
+   right: 70px;
+}
+
 .course-content ul li.section .content div.horizontal,
 .editing .course-content ul li.section .content .togglecompletion,
 .editing .course-content ul li.section .content .autocompletion {
@@ -620,10 +625,11 @@
   font-size: 1em;
 }
 
-.path-course .section .activity .actions {
+.path-course.editing .section .activity .actions {
   position: relative;
   display: inline-block;
   clear: none;
+  right: auto;
   vertical-align: bottom;
 }
 
