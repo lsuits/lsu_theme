@@ -1611,3 +1611,15 @@ table#tag-management-list {
 width: 28em;
 margin: 0 5px 0 0;
 }
+
+a.dimmed .accesshide {
+    position: absolute;
+    left: 220px;
+    bottom: 0px;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+a.dimmed span.instancename .accesshide {
+    left: -10000px;
+}
