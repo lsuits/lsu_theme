@@ -193,7 +193,8 @@
 
 .course-content ul li.section .content span.actions {
    position: absolute;
-   right: 70px;
+   right: -10px;
+   padding: 0;
 }
 
 .course-content ul li.section .content div.horizontal,
