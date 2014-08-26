@@ -550,6 +550,14 @@
     font-weight: normal;
 }
 
+.path-course a.dimmed:after,
+.path-course a.dimmed_text:after,
+.path-course .dimmed_text:after,
+.path-course .dimmed_text a:after,
+.path-course .dimmed_category:after,
+.path-course .dimmed_category a:after {
+   content: " (hidden)";
+}
 
 .single-section div.header {
    background: transparent;
