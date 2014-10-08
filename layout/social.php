@@ -35,7 +35,7 @@ echo $OUTPUT->doctype() ?>
     <meta property="og:type"   content="website" /> 
     <meta property="og:url"    content="http://sg.lsu.edu/elections" /> 
     <meta property="og:title"  content="I just voted on LSU's Student Government Elections!" /> 
-    <meta property="og:image"  content="<?php echo $CFG->wwwroot ?>/theme/lsu/pix/vote_tigers_300.png" />
+    <meta property="og:image"  content="<?php echo $CFG->wwwroot ?>/theme/lsu/pix/vote_tigers_fit.png" />
     <?php echo $OUTPUT->standard_head_html() ?>
 </head>
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?>">
