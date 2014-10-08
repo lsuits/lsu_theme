@@ -21,6 +21,8 @@ $THEME->sheets = array(
     'css3',      /** Sets up CSS 3 **/
     'browsers',      /** Fixes various browser specific issues **/
     'settings',
+    'socialnb',
+    'social',
     'print'      /** Must come last **/
 );
 
@@ -132,6 +134,17 @@ $THEME->layouts = array(
         'file' => 'report.php',
         'regions' => array(),
         'options' => array('nofooter'=>false, 'nonavbar'=>false, 'noblocks'=>true),
+    ),
+    // Pagelayouts used for Social enabled pages
+    'socialnb' => array(
+        'file' => 'social.php',
+        'regions' => array(),
+        'options' => array('nofooter'=>true, 'nonavbar'=>false, 'noblocks'=>true),
+    ),
+    'social' => array(
+        'file' => 'social.php',
+        'regions' => array('side-pre', 'side-post'),
+        'defaultregion' => 'side-post',
     ),
     // The pagelayout used for printing
     'print' => array(
